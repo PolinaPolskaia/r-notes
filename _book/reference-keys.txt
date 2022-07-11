@@ -23,7 +23,9 @@ mathematical-operations
 missing-values
 appending-data-to-a-vector
 dimensions
-matrix
+matrices
+performing-matrix-operations
+subsetting-matrices
 cross
 chapters-and-sub-chapters
 captioned-figures-and-tables
@@ -39,7 +41,3 @@ sharing-your-book
 publishing
 pages
 metadata-for-sharing
-url-your-book-url-like-httpsbookdown.orgyihuibookdown
-performing-matrix-operations
-matrices
-subsetting-matrices

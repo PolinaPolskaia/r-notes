@@ -30,7 +30,7 @@ set in the _output.yml file.</p>" />
 <meta name="author" content="John Doe" />
 
 
-<meta name="date" content="2022-06-30" />
+<meta name="date" content="2022-07-09" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -166,7 +166,7 @@ div.csl-indent {
 <li><a href="./">A Minimal Book Example</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> url: your book url like <span>https://bookdown.org/yihui/bookdown</span><span></span></a>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About<span></span></a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#usage"><i class="fa fa-check"></i><b>1.1</b> Usage<span></span></a></li>
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#render-book"><i class="fa fa-check"></i><b>1.2</b> Render book<span></span></a></li>
@@ -234,17 +234,17 @@ div.csl-indent {
 <p>A basic concept in (statistical) programming is called a <strong>variable</strong>.</p>
 <p>A variable allows you to store a value (<em>e.g. 4</em>) or an object (<em>e.g. a function description</em>) in R. You can then later use this variable’s name to easily access the value or the object that is stored within this variable.</p>
 <p>You can assign a value <code>3</code> to a variable <code>myvariable</code> with the command:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="programming-fundamentals.html#cb1-1" aria-hidden="true" tabindex="-1"></a>myvariable <span class="ot">&lt;-</span> <span class="dv">3</span></span>
-<span id="cb1-2"><a href="programming-fundamentals.html#cb1-2" aria-hidden="true" tabindex="-1"></a>myvariable</span>
-<span id="cb1-3"><a href="programming-fundamentals.html#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 3</span></span>
-<span id="cb1-4"><a href="programming-fundamentals.html#cb1-4" aria-hidden="true" tabindex="-1"></a>myvariable <span class="ot">=</span> <span class="dv">3</span></span>
-<span id="cb1-5"><a href="programming-fundamentals.html#cb1-5" aria-hidden="true" tabindex="-1"></a>myvariable</span>
-<span id="cb1-6"><a href="programming-fundamentals.html#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 3</span></span>
-<span id="cb1-7"><a href="programming-fundamentals.html#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="dv">3</span> <span class="ot">-&gt;</span> myvariable</span>
-<span id="cb1-8"><a href="programming-fundamentals.html#cb1-8" aria-hidden="true" tabindex="-1"></a>myvariable</span>
-<span id="cb1-9"><a href="programming-fundamentals.html#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 3</span></span>
-<span id="cb1-10"><a href="programming-fundamentals.html#cb1-10" aria-hidden="true" tabindex="-1"></a>myvariable<span class="sc">^</span><span class="dv">2</span></span>
-<span id="cb1-11"><a href="programming-fundamentals.html#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 9</span></span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="programming-fundamentals.html#cb3-1" aria-hidden="true" tabindex="-1"></a>myvariable <span class="ot">&lt;-</span> <span class="dv">3</span></span>
+<span id="cb3-2"><a href="programming-fundamentals.html#cb3-2" aria-hidden="true" tabindex="-1"></a>myvariable</span>
+<span id="cb3-3"><a href="programming-fundamentals.html#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 3</span></span>
+<span id="cb3-4"><a href="programming-fundamentals.html#cb3-4" aria-hidden="true" tabindex="-1"></a>myvariable <span class="ot">=</span> <span class="dv">3</span></span>
+<span id="cb3-5"><a href="programming-fundamentals.html#cb3-5" aria-hidden="true" tabindex="-1"></a>myvariable</span>
+<span id="cb3-6"><a href="programming-fundamentals.html#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 3</span></span>
+<span id="cb3-7"><a href="programming-fundamentals.html#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="dv">3</span> <span class="ot">-&gt;</span> myvariable</span>
+<span id="cb3-8"><a href="programming-fundamentals.html#cb3-8" aria-hidden="true" tabindex="-1"></a>myvariable</span>
+<span id="cb3-9"><a href="programming-fundamentals.html#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 3</span></span>
+<span id="cb3-10"><a href="programming-fundamentals.html#cb3-10" aria-hidden="true" tabindex="-1"></a>myvariable<span class="sc">^</span><span class="dv">2</span></span>
+<span id="cb3-11"><a href="programming-fundamentals.html#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 9</span></span></code></pre></div>
 <p><img src="figures/data_types.png" />
 There are several different types of data you can use in R. We’ll examine a few common ones in a little more detail.</p>
 <table>
@@ -329,44 +329,44 @@ There are several different types of data you can use in R. We’ll examine a fe
 <div id="text" class="section level3 hasAnchor" number="2.1.1">
 <h3><span class="header-section-number">2.1.1</span> Text<a href="programming-fundamentals.html#text" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Strings are known as “character” in R. Use the double quotes <code>"</code> or single quotes <code>'</code> to wrap around the string</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="programming-fundamentals.html#cb2-1" aria-hidden="true" tabindex="-1"></a>myname <span class="ot">&lt;-</span> <span class="st">&quot;nick&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="programming-fundamentals.html#cb4-1" aria-hidden="true" tabindex="-1"></a>myname <span class="ot">&lt;-</span> <span class="st">&quot;nick&quot;</span></span></code></pre></div>
 <p>We can use the <code>class()</code> function to see what data type it is</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="programming-fundamentals.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(myname)</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="programming-fundamentals.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(myname)</span></code></pre></div>
 <pre><code>## [1] &quot;character&quot;</code></pre>
 </div>
 <div id="numbers" class="section level3 hasAnchor" number="2.1.2">
 <h3><span class="header-section-number">2.1.2</span> Numbers<a href="programming-fundamentals.html#numbers" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Numbers have different classes. The most common two are <code>integer</code> and <code>numeric</code>. Integers are whole numbers:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="programming-fundamentals.html#cb5-1" aria-hidden="true" tabindex="-1"></a>favourite.integer <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(<span class="dv">8</span>)</span>
-<span id="cb5-2"><a href="programming-fundamentals.html#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(favourite.integer)</span>
-<span id="cb5-3"><a href="programming-fundamentals.html#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 8</span></span>
-<span id="cb5-4"><a href="programming-fundamentals.html#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(favourite.integer)</span>
-<span id="cb5-5"><a href="programming-fundamentals.html#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;integer&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="programming-fundamentals.html#cb7-1" aria-hidden="true" tabindex="-1"></a>favourite.integer <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(<span class="dv">8</span>)</span>
+<span id="cb7-2"><a href="programming-fundamentals.html#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(favourite.integer)</span>
+<span id="cb7-3"><a href="programming-fundamentals.html#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 8</span></span>
+<span id="cb7-4"><a href="programming-fundamentals.html#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(favourite.integer)</span>
+<span id="cb7-5"><a href="programming-fundamentals.html#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;integer&quot;</span></span></code></pre></div>
 <p>Numbers can be <code>numeric</code> which are decimals:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="programming-fundamentals.html#cb6-1" aria-hidden="true" tabindex="-1"></a>favourite.numeric <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(<span class="fl">8.8</span>)</span>
-<span id="cb6-2"><a href="programming-fundamentals.html#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(favourite.numeric)</span>
-<span id="cb6-3"><a href="programming-fundamentals.html#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 8.8</span></span>
-<span id="cb6-4"><a href="programming-fundamentals.html#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(favourite.numeric)</span>
-<span id="cb6-5"><a href="programming-fundamentals.html#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;numeric&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="programming-fundamentals.html#cb8-1" aria-hidden="true" tabindex="-1"></a>favourite.numeric <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(<span class="fl">8.8</span>)</span>
+<span id="cb8-2"><a href="programming-fundamentals.html#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(favourite.numeric)</span>
+<span id="cb8-3"><a href="programming-fundamentals.html#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 8.8</span></span>
+<span id="cb8-4"><a href="programming-fundamentals.html#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(favourite.numeric)</span>
+<span id="cb8-5"><a href="programming-fundamentals.html#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;numeric&quot;</span></span></code></pre></div>
 <p>Integer and double vectors are known collectively as numeric vectors. In R, numbers are doubles by default. To make an integer, place an <code>L</code> after the number:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="programming-fundamentals.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(<span class="dv">1</span>)</span>
-<span id="cb7-2"><a href="programming-fundamentals.html#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;double&quot;</span></span>
-<span id="cb7-3"><a href="programming-fundamentals.html#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(1L)</span>
-<span id="cb7-4"><a href="programming-fundamentals.html#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;integer&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="programming-fundamentals.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(<span class="dv">1</span>)</span>
+<span id="cb9-2"><a href="programming-fundamentals.html#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;double&quot;</span></span>
+<span id="cb9-3"><a href="programming-fundamentals.html#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(1L)</span>
+<span id="cb9-4"><a href="programming-fundamentals.html#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;integer&quot;</span></span></code></pre></div>
 <p>The distinction between integers and doubles is not usually important, but there are two important differences that you should be aware of:</p>
 <ol style="list-style-type: decimal">
 <li>Doubles are approximations. Doubles represent floating point numbers that can not always be precisely represented with a fixed amount of memory. This means that you should consider all doubles to be approximations. For example, what is square of the square root of two?</li>
 </ol>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="programming-fundamentals.html#cb8-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(<span class="dv">2</span>) <span class="sc">^</span> <span class="dv">2</span></span>
-<span id="cb8-2"><a href="programming-fundamentals.html#cb8-2" aria-hidden="true" tabindex="-1"></a>x </span>
-<span id="cb8-3"><a href="programming-fundamentals.html#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 2</span></span>
-<span id="cb8-4"><a href="programming-fundamentals.html#cb8-4" aria-hidden="true" tabindex="-1"></a>x <span class="sc">-</span> <span class="dv">2</span></span>
-<span id="cb8-5"><a href="programming-fundamentals.html#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 4.440892e-16</span></span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="programming-fundamentals.html#cb10-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(<span class="dv">2</span>) <span class="sc">^</span> <span class="dv">2</span></span>
+<span id="cb10-2"><a href="programming-fundamentals.html#cb10-2" aria-hidden="true" tabindex="-1"></a>x </span>
+<span id="cb10-3"><a href="programming-fundamentals.html#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 2</span></span>
+<span id="cb10-4"><a href="programming-fundamentals.html#cb10-4" aria-hidden="true" tabindex="-1"></a>x <span class="sc">-</span> <span class="dv">2</span></span>
+<span id="cb10-5"><a href="programming-fundamentals.html#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 4.440892e-16</span></span></code></pre></div>
 <p>This behaviour is common when working with floating point numbers: most calculations include some approximation error. Instead of comparing floating point numbers using <code>==</code>, you should use <code>dplyr::near()</code> which allows for some numerical tolerance.</p>
 <ol start="2" style="list-style-type: decimal">
 <li>Integers have one special value: <code>NA</code>, while doubles have four: <code>NA</code>, <code>NaN</code>, <code>Inf</code> and <code>-Inf</code>. All three special values <code>NaN</code>, <code>Inf</code> and <code>-Inf</code> can arise during division:</li>
 </ol>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="programming-fundamentals.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">c</span>(<span class="sc">-</span><span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>) <span class="sc">/</span> <span class="dv">0</span></span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="programming-fundamentals.html#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">c</span>(<span class="sc">-</span><span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>) <span class="sc">/</span> <span class="dv">0</span></span></code></pre></div>
 <pre><code>## [1] -Inf  NaN  Inf</code></pre>
 <p>Avoid using<code>==</code> to check for these other special values. Instead use the helper functions <code>is.finite()</code>, <code>is.infinite()</code>, and <code>is.nan()</code>:</p>
 <p><img src="figures/is.png" /></p>
@@ -374,38 +374,38 @@ There are several different types of data you can use in R. We’ll examine a fe
 <div id="logical-truefalse" class="section level3 hasAnchor" number="2.1.3">
 <h3><span class="header-section-number">2.1.3</span> Logical (True/False)<a href="programming-fundamentals.html#logical-truefalse" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We use the <code>==</code> to test for equality in R</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="programming-fundamentals.html#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(<span class="cn">TRUE</span>)</span>
-<span id="cb11-2"><a href="programming-fundamentals.html#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;logical&quot;</span></span>
-<span id="cb11-3"><a href="programming-fundamentals.html#cb11-3" aria-hidden="true" tabindex="-1"></a>favourite.numeric <span class="sc">==</span> <span class="fl">8.8</span></span>
-<span id="cb11-4"><a href="programming-fundamentals.html#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] TRUE</span></span>
-<span id="cb11-5"><a href="programming-fundamentals.html#cb11-5" aria-hidden="true" tabindex="-1"></a>favourite.numeric <span class="sc">==</span> <span class="fl">9.9</span></span>
-<span id="cb11-6"><a href="programming-fundamentals.html#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] FALSE</span></span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="programming-fundamentals.html#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(<span class="cn">TRUE</span>)</span>
+<span id="cb13-2"><a href="programming-fundamentals.html#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;logical&quot;</span></span>
+<span id="cb13-3"><a href="programming-fundamentals.html#cb13-3" aria-hidden="true" tabindex="-1"></a>favourite.numeric <span class="sc">==</span> <span class="fl">8.8</span></span>
+<span id="cb13-4"><a href="programming-fundamentals.html#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] TRUE</span></span>
+<span id="cb13-5"><a href="programming-fundamentals.html#cb13-5" aria-hidden="true" tabindex="-1"></a>favourite.numeric <span class="sc">==</span> <span class="fl">9.9</span></span>
+<span id="cb13-6"><a href="programming-fundamentals.html#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] FALSE</span></span></code></pre></div>
 </div>
 <div id="vectors" class="section level3 hasAnchor" number="2.1.4">
 <h3><span class="header-section-number">2.1.4</span> Vectors<a href="programming-fundamentals.html#vectors" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We can create 1D data structures called “vectors”.</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="programming-fundamentals.html#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span><span class="sc">:</span><span class="dv">10</span></span>
-<span id="cb12-2"><a href="programming-fundamentals.html#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="do">##  [1]  1  2  3  4  5  6  7  8  9 10</span></span>
-<span id="cb12-3"><a href="programming-fundamentals.html#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span><span class="sc">*</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>)</span>
-<span id="cb12-4"><a href="programming-fundamentals.html#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="do">##  [1]  2  4  6  8 10 12 14 16 18 20</span></span>
-<span id="cb12-5"><a href="programming-fundamentals.html#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">10</span>, <span class="dv">2</span>)</span>
-<span id="cb12-6"><a href="programming-fundamentals.html#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  0  2  4  6  8 10</span></span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="programming-fundamentals.html#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span><span class="sc">:</span><span class="dv">10</span></span>
+<span id="cb14-2"><a href="programming-fundamentals.html#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="do">##  [1]  1  2  3  4  5  6  7  8  9 10</span></span>
+<span id="cb14-3"><a href="programming-fundamentals.html#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span><span class="sc">*</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>)</span>
+<span id="cb14-4"><a href="programming-fundamentals.html#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="do">##  [1]  2  4  6  8 10 12 14 16 18 20</span></span>
+<span id="cb14-5"><a href="programming-fundamentals.html#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">10</span>, <span class="dv">2</span>)</span>
+<span id="cb14-6"><a href="programming-fundamentals.html#cb14-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  0  2  4  6  8 10</span></span></code></pre></div>
 <p>We can store vectors and perform operations on them.</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="programming-fundamentals.html#cb13-1" aria-hidden="true" tabindex="-1"></a>myvector <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span></span>
-<span id="cb13-2"><a href="programming-fundamentals.html#cb13-2" aria-hidden="true" tabindex="-1"></a>myvector</span>
-<span id="cb13-3"><a href="programming-fundamentals.html#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="do">##  [1]  1  2  3  4  5  6  7  8  9 10</span></span>
-<span id="cb13-4"><a href="programming-fundamentals.html#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span><span class="sc">^</span>myvector</span>
-<span id="cb13-5"><a href="programming-fundamentals.html#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="do">##  [1]    2    4    8   16   32   64  128  256  512 1024</span></span>
-<span id="cb13-6"><a href="programming-fundamentals.html#cb13-6" aria-hidden="true" tabindex="-1"></a>b <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>)</span>
-<span id="cb13-7"><a href="programming-fundamentals.html#cb13-7" aria-hidden="true" tabindex="-1"></a>b<span class="sc">^</span><span class="dv">2</span></span>
-<span id="cb13-8"><a href="programming-fundamentals.html#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  9 16 25</span></span>
-<span id="cb13-9"><a href="programming-fundamentals.html#cb13-9" aria-hidden="true" tabindex="-1"></a>disorders <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;autism&quot;</span>,<span class="st">&quot;ocd&quot;</span>, <span class="st">&quot;depression&quot;</span>, <span class="st">&quot;ocd&quot;</span>, <span class="st">&quot;anxiety&quot;</span>, <span class="st">&quot;autism&quot;</span>)</span>
-<span id="cb13-10"><a href="programming-fundamentals.html#cb13-10" aria-hidden="true" tabindex="-1"></a>disorders</span>
-<span id="cb13-11"><a href="programming-fundamentals.html#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;autism&quot;     &quot;ocd&quot;        &quot;depression&quot; &quot;ocd&quot;        &quot;anxiety&quot;   </span></span>
-<span id="cb13-12"><a href="programming-fundamentals.html#cb13-12" aria-hidden="true" tabindex="-1"></a><span class="do">## [6] &quot;autism&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="programming-fundamentals.html#cb15-1" aria-hidden="true" tabindex="-1"></a>myvector <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span></span>
+<span id="cb15-2"><a href="programming-fundamentals.html#cb15-2" aria-hidden="true" tabindex="-1"></a>myvector</span>
+<span id="cb15-3"><a href="programming-fundamentals.html#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="do">##  [1]  1  2  3  4  5  6  7  8  9 10</span></span>
+<span id="cb15-4"><a href="programming-fundamentals.html#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span><span class="sc">^</span>myvector</span>
+<span id="cb15-5"><a href="programming-fundamentals.html#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="do">##  [1]    2    4    8   16   32   64  128  256  512 1024</span></span>
+<span id="cb15-6"><a href="programming-fundamentals.html#cb15-6" aria-hidden="true" tabindex="-1"></a>b <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>)</span>
+<span id="cb15-7"><a href="programming-fundamentals.html#cb15-7" aria-hidden="true" tabindex="-1"></a>b<span class="sc">^</span><span class="dv">2</span></span>
+<span id="cb15-8"><a href="programming-fundamentals.html#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  9 16 25</span></span>
+<span id="cb15-9"><a href="programming-fundamentals.html#cb15-9" aria-hidden="true" tabindex="-1"></a>disorders <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;autism&quot;</span>,<span class="st">&quot;ocd&quot;</span>, <span class="st">&quot;depression&quot;</span>, <span class="st">&quot;ocd&quot;</span>, <span class="st">&quot;anxiety&quot;</span>, <span class="st">&quot;autism&quot;</span>)</span>
+<span id="cb15-10"><a href="programming-fundamentals.html#cb15-10" aria-hidden="true" tabindex="-1"></a>disorders</span>
+<span id="cb15-11"><a href="programming-fundamentals.html#cb15-11" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;autism&quot;     &quot;ocd&quot;        &quot;depression&quot; &quot;ocd&quot;        &quot;anxiety&quot;   </span></span>
+<span id="cb15-12"><a href="programming-fundamentals.html#cb15-12" aria-hidden="true" tabindex="-1"></a><span class="do">## [6] &quot;autism&quot;</span></span></code></pre></div>
 <p>An alternative way to create a vector of a specific type and length is the function <code>vector()</code>. <code>vector()</code> requires two input arguments, namely the type of the vector (or ‘mode’) and the length of the vector.</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="programming-fundamentals.html#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Double (numeric) vector of length 5</span></span>
-<span id="cb14-2"><a href="programming-fundamentals.html#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">vector</span>(<span class="st">&quot;double&quot;</span>, <span class="at">length =</span> <span class="dv">5</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="programming-fundamentals.html#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Double (numeric) vector of length 5</span></span>
+<span id="cb16-2"><a href="programming-fundamentals.html#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="fu">vector</span>(<span class="st">&quot;double&quot;</span>, <span class="at">length =</span> <span class="dv">5</span>)</span></code></pre></div>
 <pre><code>## [1] 0 0 0 0 0</code></pre>
 <p>There are two types of vectors:</p>
 <ul>
@@ -418,19 +418,19 @@ There are several different types of data you can use in R. We’ll examine a fe
 <div id="automatic-type-conversions" class="section level4 hasAnchor" number="2.1.4.1">
 <h4><span class="header-section-number">2.1.4.1</span> Automatic type conversions<a href="programming-fundamentals.html#automatic-type-conversions" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>We’ve seen that atomic vectors can be of type character, numeric (or double), integer, and logical. But what happens if we try to mix these types in a single vector? This can result in unexpected problems because R implicitly converts them to all be the same type…</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="programming-fundamentals.html#cb16-1" aria-hidden="true" tabindex="-1"></a>mybool <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="cn">TRUE</span>, <span class="dv">5</span>), <span class="fu">rep</span>(<span class="cn">FALSE</span>, <span class="dv">5</span>))</span>
-<span id="cb16-2"><a href="programming-fundamentals.html#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(mybool)</span>
-<span id="cb16-3"><a href="programming-fundamentals.html#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;logical&quot;</span></span>
-<span id="cb16-4"><a href="programming-fundamentals.html#cb16-4" aria-hidden="true" tabindex="-1"></a>mybool <span class="ot">&lt;-</span> <span class="fu">c</span>(mybool, <span class="dv">10</span>)</span>
-<span id="cb16-5"><a href="programming-fundamentals.html#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(mybool)</span>
-<span id="cb16-6"><a href="programming-fundamentals.html#cb16-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;numeric&quot;</span></span>
-<span id="cb16-7"><a href="programming-fundamentals.html#cb16-7" aria-hidden="true" tabindex="-1"></a>mybool <span class="ot">&lt;-</span> <span class="fu">c</span>(mybool, <span class="st">&quot;10&quot;</span>)</span>
-<span id="cb16-8"><a href="programming-fundamentals.html#cb16-8" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(mybool)</span>
-<span id="cb16-9"><a href="programming-fundamentals.html#cb16-9" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;character&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="programming-fundamentals.html#cb18-1" aria-hidden="true" tabindex="-1"></a>mybool <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="cn">TRUE</span>, <span class="dv">5</span>), <span class="fu">rep</span>(<span class="cn">FALSE</span>, <span class="dv">5</span>))</span>
+<span id="cb18-2"><a href="programming-fundamentals.html#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(mybool)</span>
+<span id="cb18-3"><a href="programming-fundamentals.html#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;logical&quot;</span></span>
+<span id="cb18-4"><a href="programming-fundamentals.html#cb18-4" aria-hidden="true" tabindex="-1"></a>mybool <span class="ot">&lt;-</span> <span class="fu">c</span>(mybool, <span class="dv">10</span>)</span>
+<span id="cb18-5"><a href="programming-fundamentals.html#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(mybool)</span>
+<span id="cb18-6"><a href="programming-fundamentals.html#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;numeric&quot;</span></span>
+<span id="cb18-7"><a href="programming-fundamentals.html#cb18-7" aria-hidden="true" tabindex="-1"></a>mybool <span class="ot">&lt;-</span> <span class="fu">c</span>(mybool, <span class="st">&quot;10&quot;</span>)</span>
+<span id="cb18-8"><a href="programming-fundamentals.html#cb18-8" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(mybool)</span>
+<span id="cb18-9"><a href="programming-fundamentals.html#cb18-9" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;character&quot;</span></span></code></pre></div>
 <p>How many values in <code>combined_logical</code> are <code>"TRUE"</code> (as a character) in the following example:</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="programming-fundamentals.html#cb17-1" aria-hidden="true" tabindex="-1"></a>num_logical <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="cn">TRUE</span>)</span>
-<span id="cb17-2"><a href="programming-fundamentals.html#cb17-2" aria-hidden="true" tabindex="-1"></a>char_logical <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;a&quot;</span>, <span class="st">&quot;b&quot;</span>, <span class="st">&quot;c&quot;</span>, <span class="cn">TRUE</span>)</span>
-<span id="cb17-3"><a href="programming-fundamentals.html#cb17-3" aria-hidden="true" tabindex="-1"></a>combined_logical <span class="ot">&lt;-</span> <span class="fu">c</span>(num_logical, char_logical)</span></code></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="programming-fundamentals.html#cb19-1" aria-hidden="true" tabindex="-1"></a>num_logical <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="cn">TRUE</span>)</span>
+<span id="cb19-2"><a href="programming-fundamentals.html#cb19-2" aria-hidden="true" tabindex="-1"></a>char_logical <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;a&quot;</span>, <span class="st">&quot;b&quot;</span>, <span class="st">&quot;c&quot;</span>, <span class="cn">TRUE</span>)</span>
+<span id="cb19-3"><a href="programming-fundamentals.html#cb19-3" aria-hidden="true" tabindex="-1"></a>combined_logical <span class="ot">&lt;-</span> <span class="fu">c</span>(num_logical, char_logical)</span></code></pre></div>
 <p>Only one. There is no memory of past data types, and the coercion happens the first time the vector is evaluated. Therefore, the TRUE in <code>num_logical</code> gets converted into a <code>1</code> before it gets converted into <code>"1"</code> in <code>combined_logical</code>.</p>
 <p>In R, we call converting objects from one class into another class <em>coercion</em>. These conversions happen according to a hierarchy, whereby some types get preferentially coerced into other types.</p>
 </div>
@@ -445,10 +445,10 @@ There are several different types of data you can use in R. We’ll examine a fe
 <li><code>attributes()</code>: Returns further metadata of arbitrary type.</li>
 <li><code>str()</code>: Compactly displaying the internal structure of a R object (str from Structure).</li>
 </ul>
-<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="programming-fundamentals.html#cb18-1" aria-hidden="true" tabindex="-1"></a>gfg <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>, <span class="dv">9</span>, <span class="dv">13</span>, <span class="dv">15</span>, <span class="dv">3</span>, <span class="dv">1</span>)</span>
-<span id="cb18-2"><a href="programming-fundamentals.html#cb18-2" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb18-3"><a href="programming-fundamentals.html#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Calling str() function</span></span>
-<span id="cb18-4"><a href="programming-fundamentals.html#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(gfg)</span></code></pre></div>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="programming-fundamentals.html#cb20-1" aria-hidden="true" tabindex="-1"></a>gfg <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>, <span class="dv">9</span>, <span class="dv">13</span>, <span class="dv">15</span>, <span class="dv">3</span>, <span class="dv">1</span>)</span>
+<span id="cb20-2"><a href="programming-fundamentals.html#cb20-2" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb20-3"><a href="programming-fundamentals.html#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Calling str() function</span></span>
+<span id="cb20-4"><a href="programming-fundamentals.html#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(gfg)</span></code></pre></div>
 <pre><code>## List of 10
 ##  $ : num 2
 ##  $ : num 4
@@ -460,13 +460,13 @@ There are several different types of data you can use in R. We’ll examine a fe
 ##  $ : num 15
 ##  $ : num 3
 ##  $ : num 1</code></pre>
-<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="programming-fundamentals.html#cb20-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fl">1.5</span></span>
-<span id="cb20-2"><a href="programming-fundamentals.html#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">length</span>(x)  <span class="co"># Length of the vector.</span></span>
-<span id="cb20-3"><a href="programming-fundamentals.html#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 1</span></span>
-<span id="cb20-4"><a href="programming-fundamentals.html#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(x)  <span class="co"># What is the class of the object?</span></span>
-<span id="cb20-5"><a href="programming-fundamentals.html#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;numeric&quot;</span></span>
-<span id="cb20-6"><a href="programming-fundamentals.html#cb20-6" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(x)   <span class="co"># What is the type of this vector?</span></span>
-<span id="cb20-7"><a href="programming-fundamentals.html#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;double&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="programming-fundamentals.html#cb22-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fl">1.5</span></span>
+<span id="cb22-2"><a href="programming-fundamentals.html#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="fu">length</span>(x)  <span class="co"># Length of the vector.</span></span>
+<span id="cb22-3"><a href="programming-fundamentals.html#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 1</span></span>
+<span id="cb22-4"><a href="programming-fundamentals.html#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(x)  <span class="co"># What is the class of the object?</span></span>
+<span id="cb22-5"><a href="programming-fundamentals.html#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;numeric&quot;</span></span>
+<span id="cb22-6"><a href="programming-fundamentals.html#cb22-6" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(x)   <span class="co"># What is the type of this vector?</span></span>
+<span id="cb22-7"><a href="programming-fundamentals.html#cb22-7" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;double&quot;</span></span></code></pre></div>
 <p>While the class is “numeric” the underlying type is “double”. As shown, <code>class()</code> and <code>typeof()</code> can be used to determine the class and type of an object. Both functions return a character vector which contains the name of the class/type (e.g., “numeric” or “integer”).</p>
 <p>Alternatively, a range of functions exist to check whether or not an object is of a specific type. These very handy functions return either a logical <code>TRUE</code> if the input is of this specific type, or <code>FALSE</code> if not. Examples are:</p>
 <p><code>is.double()</code>
@@ -476,7 +476,7 @@ There are several different types of data you can use in R. We’ll examine a fe
 <code>is.character()</code>
 <code>is.vector()</code>
 … and many more.</p>
-<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="programming-fundamentals.html#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">is.integer</span>(<span class="fl">1.5</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="programming-fundamentals.html#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">is.integer</span>(<span class="fl">1.5</span>)</span></code></pre></div>
 <pre><code>## [1] FALSE</code></pre>
 <blockquote>
 <p><em>Note:</em> Avoid <code>is.vector()</code>, <code>is.atomic()</code>, and <code>is.numeric()</code>: they don’t test if you have a vector, atomic vector, or numeric vector; you’ll need to carefully read the documentation to figure out what they actually do.</p>
@@ -532,53 +532,53 @@ There are several different types of data you can use in R. We’ll examine a fe
 <div id="naming-a-vector" class="section level4 hasAnchor" number="2.1.4.3">
 <h4><span class="header-section-number">2.1.4.3</span> Naming a vector<a href="programming-fundamentals.html#naming-a-vector" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>You can give a name to the elements of a vector with the <code>names()</code> function. Have a look at this example:</p>
-<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="programming-fundamentals.html#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Roulette winnings from Monday to Friday</span></span>
-<span id="cb23-2"><a href="programming-fundamentals.html#cb23-2" aria-hidden="true" tabindex="-1"></a>roulette_vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">24</span>, <span class="sc">-</span><span class="dv">50</span>, <span class="dv">100</span>, <span class="sc">-</span><span class="dv">350</span>, <span class="dv">10</span>)</span>
-<span id="cb23-3"><a href="programming-fundamentals.html#cb23-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-4"><a href="programming-fundamentals.html#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Assign days as names of roulette_vector</span></span>
-<span id="cb23-5"><a href="programming-fundamentals.html#cb23-5" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(roulette_vector) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Monday&quot;</span>, <span class="st">&quot;Tuesday&quot;</span>, <span class="st">&quot;Wednesday&quot;</span>, <span class="st">&quot;Thursday&quot;</span>, <span class="st">&quot;Friday&quot;</span>)</span>
-<span id="cb23-6"><a href="programming-fundamentals.html#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-7"><a href="programming-fundamentals.html#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="fu">attributes</span>(roulette_vector)</span>
-<span id="cb23-8"><a href="programming-fundamentals.html#cb23-8" aria-hidden="true" tabindex="-1"></a><span class="do">## $names</span></span>
-<span id="cb23-9"><a href="programming-fundamentals.html#cb23-9" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;Monday&quot;    &quot;Tuesday&quot;   &quot;Wednesday&quot; &quot;Thursday&quot;  &quot;Friday&quot;</span></span>
-<span id="cb23-10"><a href="programming-fundamentals.html#cb23-10" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(roulette_vector)</span>
-<span id="cb23-11"><a href="programming-fundamentals.html#cb23-11" aria-hidden="true" tabindex="-1"></a><span class="do">##  Named num [1:5] -24 -50 100 -350 10</span></span>
-<span id="cb23-12"><a href="programming-fundamentals.html#cb23-12" aria-hidden="true" tabindex="-1"></a><span class="do">##  - attr(*, &quot;names&quot;)= chr [1:5] &quot;Monday&quot; &quot;Tuesday&quot; &quot;Wednesday&quot; &quot;Thursday&quot; ...</span></span></code></pre></div>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="programming-fundamentals.html#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Roulette winnings from Monday to Friday</span></span>
+<span id="cb25-2"><a href="programming-fundamentals.html#cb25-2" aria-hidden="true" tabindex="-1"></a>roulette_vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">24</span>, <span class="sc">-</span><span class="dv">50</span>, <span class="dv">100</span>, <span class="sc">-</span><span class="dv">350</span>, <span class="dv">10</span>)</span>
+<span id="cb25-3"><a href="programming-fundamentals.html#cb25-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-4"><a href="programming-fundamentals.html#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Assign days as names of roulette_vector</span></span>
+<span id="cb25-5"><a href="programming-fundamentals.html#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(roulette_vector) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Monday&quot;</span>, <span class="st">&quot;Tuesday&quot;</span>, <span class="st">&quot;Wednesday&quot;</span>, <span class="st">&quot;Thursday&quot;</span>, <span class="st">&quot;Friday&quot;</span>)</span>
+<span id="cb25-6"><a href="programming-fundamentals.html#cb25-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-7"><a href="programming-fundamentals.html#cb25-7" aria-hidden="true" tabindex="-1"></a><span class="fu">attributes</span>(roulette_vector)</span>
+<span id="cb25-8"><a href="programming-fundamentals.html#cb25-8" aria-hidden="true" tabindex="-1"></a><span class="do">## $names</span></span>
+<span id="cb25-9"><a href="programming-fundamentals.html#cb25-9" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;Monday&quot;    &quot;Tuesday&quot;   &quot;Wednesday&quot; &quot;Thursday&quot;  &quot;Friday&quot;</span></span>
+<span id="cb25-10"><a href="programming-fundamentals.html#cb25-10" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(roulette_vector)</span>
+<span id="cb25-11"><a href="programming-fundamentals.html#cb25-11" aria-hidden="true" tabindex="-1"></a><span class="do">##  Named num [1:5] -24 -50 100 -350 10</span></span>
+<span id="cb25-12"><a href="programming-fundamentals.html#cb25-12" aria-hidden="true" tabindex="-1"></a><span class="do">##  - attr(*, &quot;names&quot;)= chr [1:5] &quot;Monday&quot; &quot;Tuesday&quot; &quot;Wednesday&quot; &quot;Thursday&quot; ...</span></span></code></pre></div>
 <p>However, when you look at it from a higher perspective, there is a more efficient way to do this, namely, to assign the days of the week vector to a variable!</p>
-<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="programming-fundamentals.html#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The variable days_vector</span></span>
-<span id="cb24-2"><a href="programming-fundamentals.html#cb24-2" aria-hidden="true" tabindex="-1"></a>days_vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Monday&quot;</span>, <span class="st">&quot;Tuesday&quot;</span>, <span class="st">&quot;Wednesday&quot;</span>, <span class="st">&quot;Thursday&quot;</span>, <span class="st">&quot;Friday&quot;</span>)</span>
-<span id="cb24-3"><a href="programming-fundamentals.html#cb24-3" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb24-4"><a href="programming-fundamentals.html#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Assign the names of the day to roulette_vector </span></span>
-<span id="cb24-5"><a href="programming-fundamentals.html#cb24-5" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(roulette_vector) <span class="ot">&lt;-</span> days_vector</span></code></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="programming-fundamentals.html#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The variable days_vector</span></span>
+<span id="cb26-2"><a href="programming-fundamentals.html#cb26-2" aria-hidden="true" tabindex="-1"></a>days_vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Monday&quot;</span>, <span class="st">&quot;Tuesday&quot;</span>, <span class="st">&quot;Wednesday&quot;</span>, <span class="st">&quot;Thursday&quot;</span>, <span class="st">&quot;Friday&quot;</span>)</span>
+<span id="cb26-3"><a href="programming-fundamentals.html#cb26-3" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb26-4"><a href="programming-fundamentals.html#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Assign the names of the day to roulette_vector </span></span>
+<span id="cb26-5"><a href="programming-fundamentals.html#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(roulette_vector) <span class="ot">&lt;-</span> days_vector</span></code></pre></div>
 <p>Or we can do it like this:</p>
-<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="programming-fundamentals.html#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a new object called shoebox</span></span>
-<span id="cb25-2"><a href="programming-fundamentals.html#cb25-2" aria-hidden="true" tabindex="-1"></a>shoebox <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">brand =</span> <span class="st">&quot;Nike&quot;</span>, <span class="at">size =</span> <span class="dv">10</span>, <span class="at">model =</span> <span class="st">&quot;Pegasus&quot;</span>)</span>
-<span id="cb25-3"><a href="programming-fundamentals.html#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="co"># look at the object called shoebox</span></span>
-<span id="cb25-4"><a href="programming-fundamentals.html#cb25-4" aria-hidden="true" tabindex="-1"></a>shoebox</span>
-<span id="cb25-5"><a href="programming-fundamentals.html#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="do">##     brand      size     model </span></span>
-<span id="cb25-6"><a href="programming-fundamentals.html#cb25-6" aria-hidden="true" tabindex="-1"></a><span class="do">##    &quot;Nike&quot;      &quot;10&quot; &quot;Pegasus&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="programming-fundamentals.html#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a new object called shoebox</span></span>
+<span id="cb27-2"><a href="programming-fundamentals.html#cb27-2" aria-hidden="true" tabindex="-1"></a>shoebox <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">brand =</span> <span class="st">&quot;Nike&quot;</span>, <span class="at">size =</span> <span class="dv">10</span>, <span class="at">model =</span> <span class="st">&quot;Pegasus&quot;</span>)</span>
+<span id="cb27-3"><a href="programming-fundamentals.html#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="co"># look at the object called shoebox</span></span>
+<span id="cb27-4"><a href="programming-fundamentals.html#cb27-4" aria-hidden="true" tabindex="-1"></a>shoebox</span>
+<span id="cb27-5"><a href="programming-fundamentals.html#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="do">##     brand      size     model </span></span>
+<span id="cb27-6"><a href="programming-fundamentals.html#cb27-6" aria-hidden="true" tabindex="-1"></a><span class="do">##    &quot;Nike&quot;      &quot;10&quot; &quot;Pegasus&quot;</span></span></code></pre></div>
 <blockquote>
 <p><em>Note</em>: Or you could use <code>purrr::set_names()</code></p>
 </blockquote>
 <p>When elements are named, we can extract by name instead of by index.</p>
-<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="programming-fundamentals.html#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># extract the brand</span></span>
-<span id="cb26-2"><a href="programming-fundamentals.html#cb26-2" aria-hidden="true" tabindex="-1"></a>shoebox[<span class="st">&#39;brand&#39;</span>]</span>
-<span id="cb26-3"><a href="programming-fundamentals.html#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="do">##  brand </span></span>
-<span id="cb26-4"><a href="programming-fundamentals.html#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="do">## &quot;Nike&quot;</span></span>
-<span id="cb26-5"><a href="programming-fundamentals.html#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="co"># this is the same as:</span></span>
-<span id="cb26-6"><a href="programming-fundamentals.html#cb26-6" aria-hidden="true" tabindex="-1"></a>shoebox[<span class="dv">1</span>]</span>
-<span id="cb26-7"><a href="programming-fundamentals.html#cb26-7" aria-hidden="true" tabindex="-1"></a><span class="do">##  brand </span></span>
-<span id="cb26-8"><a href="programming-fundamentals.html#cb26-8" aria-hidden="true" tabindex="-1"></a><span class="do">## &quot;Nike&quot;</span></span>
-<span id="cb26-9"><a href="programming-fundamentals.html#cb26-9" aria-hidden="true" tabindex="-1"></a><span class="co"># extract the size and model</span></span>
-<span id="cb26-10"><a href="programming-fundamentals.html#cb26-10" aria-hidden="true" tabindex="-1"></a>shoebox[<span class="fu">c</span>(<span class="st">&#39;size&#39;</span>,<span class="st">&#39;model&#39;</span>)]</span>
-<span id="cb26-11"><a href="programming-fundamentals.html#cb26-11" aria-hidden="true" tabindex="-1"></a><span class="do">##      size     model </span></span>
-<span id="cb26-12"><a href="programming-fundamentals.html#cb26-12" aria-hidden="true" tabindex="-1"></a><span class="do">##      &quot;10&quot; &quot;Pegasus&quot;</span></span>
-<span id="cb26-13"><a href="programming-fundamentals.html#cb26-13" aria-hidden="true" tabindex="-1"></a><span class="co"># change the size to 11</span></span>
-<span id="cb26-14"><a href="programming-fundamentals.html#cb26-14" aria-hidden="true" tabindex="-1"></a>shoebox[<span class="st">&#39;size&#39;</span>] <span class="ot">&lt;-</span> <span class="dv">11</span></span>
-<span id="cb26-15"><a href="programming-fundamentals.html#cb26-15" aria-hidden="true" tabindex="-1"></a><span class="co"># view the object called shoebox</span></span>
-<span id="cb26-16"><a href="programming-fundamentals.html#cb26-16" aria-hidden="true" tabindex="-1"></a>shoebox</span>
-<span id="cb26-17"><a href="programming-fundamentals.html#cb26-17" aria-hidden="true" tabindex="-1"></a><span class="do">##     brand      size     model </span></span>
-<span id="cb26-18"><a href="programming-fundamentals.html#cb26-18" aria-hidden="true" tabindex="-1"></a><span class="do">##    &quot;Nike&quot;      &quot;11&quot; &quot;Pegasus&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="programming-fundamentals.html#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># extract the brand</span></span>
+<span id="cb28-2"><a href="programming-fundamentals.html#cb28-2" aria-hidden="true" tabindex="-1"></a>shoebox[<span class="st">&#39;brand&#39;</span>]</span>
+<span id="cb28-3"><a href="programming-fundamentals.html#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="do">##  brand </span></span>
+<span id="cb28-4"><a href="programming-fundamentals.html#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="do">## &quot;Nike&quot;</span></span>
+<span id="cb28-5"><a href="programming-fundamentals.html#cb28-5" aria-hidden="true" tabindex="-1"></a><span class="co"># this is the same as:</span></span>
+<span id="cb28-6"><a href="programming-fundamentals.html#cb28-6" aria-hidden="true" tabindex="-1"></a>shoebox[<span class="dv">1</span>]</span>
+<span id="cb28-7"><a href="programming-fundamentals.html#cb28-7" aria-hidden="true" tabindex="-1"></a><span class="do">##  brand </span></span>
+<span id="cb28-8"><a href="programming-fundamentals.html#cb28-8" aria-hidden="true" tabindex="-1"></a><span class="do">## &quot;Nike&quot;</span></span>
+<span id="cb28-9"><a href="programming-fundamentals.html#cb28-9" aria-hidden="true" tabindex="-1"></a><span class="co"># extract the size and model</span></span>
+<span id="cb28-10"><a href="programming-fundamentals.html#cb28-10" aria-hidden="true" tabindex="-1"></a>shoebox[<span class="fu">c</span>(<span class="st">&#39;size&#39;</span>,<span class="st">&#39;model&#39;</span>)]</span>
+<span id="cb28-11"><a href="programming-fundamentals.html#cb28-11" aria-hidden="true" tabindex="-1"></a><span class="do">##      size     model </span></span>
+<span id="cb28-12"><a href="programming-fundamentals.html#cb28-12" aria-hidden="true" tabindex="-1"></a><span class="do">##      &quot;10&quot; &quot;Pegasus&quot;</span></span>
+<span id="cb28-13"><a href="programming-fundamentals.html#cb28-13" aria-hidden="true" tabindex="-1"></a><span class="co"># change the size to 11</span></span>
+<span id="cb28-14"><a href="programming-fundamentals.html#cb28-14" aria-hidden="true" tabindex="-1"></a>shoebox[<span class="st">&#39;size&#39;</span>] <span class="ot">&lt;-</span> <span class="dv">11</span></span>
+<span id="cb28-15"><a href="programming-fundamentals.html#cb28-15" aria-hidden="true" tabindex="-1"></a><span class="co"># view the object called shoebox</span></span>
+<span id="cb28-16"><a href="programming-fundamentals.html#cb28-16" aria-hidden="true" tabindex="-1"></a>shoebox</span>
+<span id="cb28-17"><a href="programming-fundamentals.html#cb28-17" aria-hidden="true" tabindex="-1"></a><span class="do">##     brand      size     model </span></span>
+<span id="cb28-18"><a href="programming-fundamentals.html#cb28-18" aria-hidden="true" tabindex="-1"></a><span class="do">##    &quot;Nike&quot;      &quot;11&quot; &quot;Pegasus&quot;</span></span></code></pre></div>
 <p>You can remove names from a vector by using <code>x &lt;- unname(x)</code> or <code>names(x) &lt;- NULL</code>.</p>
 </div>
 <div id="subsetting-vectors" class="section level4 hasAnchor" number="2.1.4.4">
@@ -591,19 +591,19 @@ There are several different types of data you can use in R. We’ll examine a fe
 </ul>
 <div id="indexing-and-slicing" class="section level5 hasAnchor" number="2.1.4.4.1">
 <h5><span class="header-section-number">2.1.4.4.1</span> Indexing and slicing<a href="programming-fundamentals.html#indexing-and-slicing" class="anchor-section" aria-label="Anchor link to header"></a></h5>
-<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="programming-fundamentals.html#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a new object called fiveRandoms, using the runif function (“random uniform”)</span></span>
-<span id="cb27-2"><a href="programming-fundamentals.html#cb27-2" aria-hidden="true" tabindex="-1"></a>fiveRandoms <span class="ot">&lt;-</span> <span class="fu">runif</span>(<span class="at">n =</span> <span class="dv">5</span>)</span>
-<span id="cb27-3"><a href="programming-fundamentals.html#cb27-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb27-4"><a href="programming-fundamentals.html#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="co"># create a new object called fiveIntegers, using the sample function</span></span>
-<span id="cb27-5"><a href="programming-fundamentals.html#cb27-5" aria-hidden="true" tabindex="-1"></a>fiveIntegers  <span class="ot">&lt;-</span> <span class="fu">sample</span>(<span class="at">x =</span> <span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">100</span>), <span class="at">size =</span> <span class="dv">5</span>, <span class="at">replace =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb27-6"><a href="programming-fundamentals.html#cb27-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb27-7"><a href="programming-fundamentals.html#cb27-7" aria-hidden="true" tabindex="-1"></a><span class="co"># use the c function to combine the two vectors, fiveIntegers and fiveRandoms into a new object called my.vector</span></span>
-<span id="cb27-8"><a href="programming-fundamentals.html#cb27-8" aria-hidden="true" tabindex="-1"></a>my.vector <span class="ot">&lt;-</span> <span class="fu">c</span>(fiveIntegers,fiveRandoms)</span>
-<span id="cb27-9"><a href="programming-fundamentals.html#cb27-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb27-10"><a href="programming-fundamentals.html#cb27-10" aria-hidden="true" tabindex="-1"></a><span class="co"># look at the object </span></span>
-<span id="cb27-11"><a href="programming-fundamentals.html#cb27-11" aria-hidden="true" tabindex="-1"></a>my.vector</span>
-<span id="cb27-12"><a href="programming-fundamentals.html#cb27-12" aria-hidden="true" tabindex="-1"></a><span class="do">##  [1]  2.00000000 41.00000000  7.00000000 57.00000000 52.00000000  0.42276425</span></span>
-<span id="cb27-13"><a href="programming-fundamentals.html#cb27-13" aria-hidden="true" tabindex="-1"></a><span class="do">##  [7]  0.06345892  0.73695064  0.51986828  0.94023723</span></span></code></pre></div>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="programming-fundamentals.html#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a new object called fiveRandoms, using the runif function (“random uniform”)</span></span>
+<span id="cb29-2"><a href="programming-fundamentals.html#cb29-2" aria-hidden="true" tabindex="-1"></a>fiveRandoms <span class="ot">&lt;-</span> <span class="fu">runif</span>(<span class="at">n =</span> <span class="dv">5</span>)</span>
+<span id="cb29-3"><a href="programming-fundamentals.html#cb29-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-4"><a href="programming-fundamentals.html#cb29-4" aria-hidden="true" tabindex="-1"></a><span class="co"># create a new object called fiveIntegers, using the sample function</span></span>
+<span id="cb29-5"><a href="programming-fundamentals.html#cb29-5" aria-hidden="true" tabindex="-1"></a>fiveIntegers  <span class="ot">&lt;-</span> <span class="fu">sample</span>(<span class="at">x =</span> <span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">100</span>), <span class="at">size =</span> <span class="dv">5</span>, <span class="at">replace =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb29-6"><a href="programming-fundamentals.html#cb29-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-7"><a href="programming-fundamentals.html#cb29-7" aria-hidden="true" tabindex="-1"></a><span class="co"># use the c function to combine the two vectors, fiveIntegers and fiveRandoms into a new object called my.vector</span></span>
+<span id="cb29-8"><a href="programming-fundamentals.html#cb29-8" aria-hidden="true" tabindex="-1"></a>my.vector <span class="ot">&lt;-</span> <span class="fu">c</span>(fiveIntegers,fiveRandoms)</span>
+<span id="cb29-9"><a href="programming-fundamentals.html#cb29-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-10"><a href="programming-fundamentals.html#cb29-10" aria-hidden="true" tabindex="-1"></a><span class="co"># look at the object </span></span>
+<span id="cb29-11"><a href="programming-fundamentals.html#cb29-11" aria-hidden="true" tabindex="-1"></a>my.vector</span>
+<span id="cb29-12"><a href="programming-fundamentals.html#cb29-12" aria-hidden="true" tabindex="-1"></a><span class="do">##  [1] 87.0000000 41.0000000  8.0000000 93.0000000  3.0000000  0.5197888</span></span>
+<span id="cb29-13"><a href="programming-fundamentals.html#cb29-13" aria-hidden="true" tabindex="-1"></a><span class="do">##  [7]  0.9267313  0.5328597  0.7032031  0.2522926</span></span></code></pre></div>
 <p>Each of the 10 numbers (or elements) in my.vector has a position within the vector, and R has a specific syntax for pulling certain elements out of the vector object. Here are 7 examples:</p>
 <ol style="list-style-type: decimal">
 <li>To get the first element stored in <code>my.vector</code>, use <code>my.vector[1]</code></li>
@@ -616,27 +616,27 @@ There are several different types of data you can use in R. We’ll examine a fe
 </ol>
 <p>Of these, example 4 is “tricky” because <code>my.vector[c(3,5,7,8)]</code> embeds a c function so that we can pull out various combinations of numbers, in the specified order. You’ll find this to be a very, very useful approach. You can’t just type in <code>my.vector[3,5,7,8]</code> because R will think you are trying to extract an element from a four dimensional array!</p>
 <p>If we want to exclude certain indices, we use a - symbol, as shown in examples 5, 6, and 7. Example 6 is pretty straightforward: <code>my.vector[-5]</code> means return all elements of my.vector except the fifth element. But example 7 is tricky. The <code>my.vector[-(1:7)]</code> example uses parentheses to surround the numbers 1 through 7. If we didn’t have the parentheses, we would get an error. Try this:</p>
-<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="programming-fundamentals.html#cb28-1" aria-hidden="true" tabindex="-1"></a>my.vector[<span class="sc">-</span><span class="dv">1</span><span class="sc">:</span><span class="dv">7</span>]</span></code></pre></div>
-<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="programming-fundamentals.html#cb29-1" aria-hidden="true" tabindex="-1"></a>Error <span class="cf">in</span> my.vector[<span class="sc">-</span><span class="dv">1</span><span class="sc">:</span><span class="dv">7</span>] <span class="sc">:</span> only <span class="dv">0</span><span class="st">&#39;s may be mixed with negative subscripts</span></span></code></pre></div>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="programming-fundamentals.html#cb30-1" aria-hidden="true" tabindex="-1"></a>my.vector[<span class="sc">-</span><span class="dv">1</span><span class="sc">:</span><span class="dv">7</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="programming-fundamentals.html#cb31-1" aria-hidden="true" tabindex="-1"></a>Error <span class="cf">in</span> my.vector[<span class="sc">-</span><span class="dv">1</span><span class="sc">:</span><span class="dv">7</span>] <span class="sc">:</span> only <span class="dv">0</span><span class="st">&#39;s may be mixed with negative subscripts</span></span></code></pre></div>
 <p>What the error says is an important troubleshooting message! There error says “only 0’s may be mixed with negative subscripts”. A negative subscript indicates exclusion, but -1 is mixed with 7. You can’t omit some indices and select others at the same time. By entering <code>my.vector[-(1:7)]</code>, we are telling R to exclude indices 1 through 7.</p>
 </div>
 <div id="subsetting-by-name" class="section level5 hasAnchor" number="2.1.4.4.2">
 <h5><span class="header-section-number">2.1.4.4.2</span> Subsetting by name<a href="programming-fundamentals.html#subsetting-by-name" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>If we have named vectors we can make use of the names of the elements to access them. Let us use the following named vector:</p>
-<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="programming-fundamentals.html#cb30-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">age =</span> <span class="dv">35</span>, <span class="at">height =</span> <span class="fl">1.72</span>, <span class="at">zipcode =</span> <span class="dv">6020</span>)</span>
-<span id="cb30-2"><a href="programming-fundamentals.html#cb30-2" aria-hidden="true" tabindex="-1"></a>x[<span class="st">&quot;age&quot;</span>]</span>
-<span id="cb30-3"><a href="programming-fundamentals.html#cb30-3" aria-hidden="true" tabindex="-1"></a><span class="do">## age </span></span>
-<span id="cb30-4"><a href="programming-fundamentals.html#cb30-4" aria-hidden="true" tabindex="-1"></a><span class="do">##  35</span></span></code></pre></div>
+<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb32-1"><a href="programming-fundamentals.html#cb32-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">age =</span> <span class="dv">35</span>, <span class="at">height =</span> <span class="fl">1.72</span>, <span class="at">zipcode =</span> <span class="dv">6020</span>)</span>
+<span id="cb32-2"><a href="programming-fundamentals.html#cb32-2" aria-hidden="true" tabindex="-1"></a>x[<span class="st">&quot;age&quot;</span>]</span>
+<span id="cb32-3"><a href="programming-fundamentals.html#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="do">## age </span></span>
+<span id="cb32-4"><a href="programming-fundamentals.html#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="do">##  35</span></span></code></pre></div>
 <p>As for subsetting by indexes, we can also ask for multiple elements at the same time. However, <em>negative subsetting</em> (<code>x[-"age"]</code>) does not work.</p>
-<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="programming-fundamentals.html#cb31-1" aria-hidden="true" tabindex="-1"></a>x[<span class="fu">c</span>(<span class="st">&quot;age&quot;</span>, <span class="st">&quot;zipcode&quot;</span>)]  <span class="co"># get both, &quot;age&quot; and &quot;zipcode&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="programming-fundamentals.html#cb33-1" aria-hidden="true" tabindex="-1"></a>x[<span class="fu">c</span>(<span class="st">&quot;age&quot;</span>, <span class="st">&quot;zipcode&quot;</span>)]  <span class="co"># get both, &quot;age&quot; and &quot;zipcode&quot;</span></span></code></pre></div>
 <pre><code>##     age zipcode 
 ##      35    6020</code></pre>
 </div>
 <div id="subsetting-by-logical-vectors" class="section level5 hasAnchor" number="2.1.4.4.3">
 <h5><span class="header-section-number">2.1.4.4.3</span> Subsetting by logical vectors<a href="programming-fundamentals.html#subsetting-by-logical-vectors" class="anchor-section" aria-label="Anchor link to header"></a></h5>
-<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="programming-fundamentals.html#cb33-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">30</span>, <span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">0</span>, <span class="dv">30</span>, <span class="dv">50</span>)</span>
-<span id="cb33-2"><a href="programming-fundamentals.html#cb33-2" aria-hidden="true" tabindex="-1"></a>x[<span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>)]</span>
-<span id="cb33-3"><a href="programming-fundamentals.html#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 30 10</span></span></code></pre></div>
+<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="programming-fundamentals.html#cb35-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">30</span>, <span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">0</span>, <span class="dv">30</span>, <span class="dv">50</span>)</span>
+<span id="cb35-2"><a href="programming-fundamentals.html#cb35-2" aria-hidden="true" tabindex="-1"></a>x[<span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>)]</span>
+<span id="cb35-3"><a href="programming-fundamentals.html#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 30 10</span></span></code></pre></div>
 <p>Some more examples which you can try yourself given our vector <code>x &lt;- c(30, 10, 20, 0, 30, 50)</code>:</p>
 <ul>
 <li><code>x[x == 30]</code>: Elements in <code>x</code> where <code>x</code> is (exactly) equal to 30</li>
@@ -646,28 +646,28 @@ There are several different types of data you can use in R. We’ll examine a fe
 <li><code>x[x &lt; 30 &amp; x &gt; 40]</code>: All elements where <code>x</code> is less than 30 AND larger than 40 at the same time. Again, impossible, the result should be an empty vector.</li>
 </ul>
 <p>Such expressions can also be more complex and/or use data over different vectors. We can also store the logical vector onto a new object and use this object for subsetting. As an example, imagine we have two numeric vectors age and height with the <code>age</code> and <code>height</code> of some people.</p>
-<div class="sourceCode" id="cb34"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb34-1"><a href="programming-fundamentals.html#cb34-1" aria-hidden="true" tabindex="-1"></a>age    <span class="ot">&lt;-</span> <span class="fu">c</span>(  <span class="dv">25</span>,   <span class="dv">53</span>,   <span class="dv">21</span>,   <span class="dv">50</span>,   <span class="dv">18</span>,   <span class="dv">63</span>)</span>
-<span id="cb34-2"><a href="programming-fundamentals.html#cb34-2" aria-hidden="true" tabindex="-1"></a>height <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">1.73</span>, <span class="fl">1.69</span>, <span class="fl">1.83</span>, <span class="fl">1.57</span>, <span class="fl">1.91</span>, <span class="fl">1.75</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb36"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb36-1"><a href="programming-fundamentals.html#cb36-1" aria-hidden="true" tabindex="-1"></a>age    <span class="ot">&lt;-</span> <span class="fu">c</span>(  <span class="dv">25</span>,   <span class="dv">53</span>,   <span class="dv">21</span>,   <span class="dv">50</span>,   <span class="dv">18</span>,   <span class="dv">63</span>)</span>
+<span id="cb36-2"><a href="programming-fundamentals.html#cb36-2" aria-hidden="true" tabindex="-1"></a>height <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">1.73</span>, <span class="fl">1.69</span>, <span class="fl">1.83</span>, <span class="fl">1.57</span>, <span class="fl">1.91</span>, <span class="fl">1.75</span>)</span></code></pre></div>
 <p>We would like to get the age of those smaller than <code>1.8</code>. In this case we first perform the relational comparison on the vector <code>height</code>. The result (a logical vector) is stored onto a new object <code>res</code>. In a second step we then use <code>res</code> to subset the <code>age</code> vector.</p>
-<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="programming-fundamentals.html#cb35-1" aria-hidden="true" tabindex="-1"></a>res <span class="ot">&lt;-</span> height <span class="sc">&lt;</span> <span class="fl">1.8</span></span>
-<span id="cb35-2"><a href="programming-fundamentals.html#cb35-2" aria-hidden="true" tabindex="-1"></a>res</span>
-<span id="cb35-3"><a href="programming-fundamentals.html#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  TRUE  TRUE FALSE  TRUE FALSE  TRUE</span></span>
-<span id="cb35-4"><a href="programming-fundamentals.html#cb35-4" aria-hidden="true" tabindex="-1"></a>age[res]</span>
-<span id="cb35-5"><a href="programming-fundamentals.html#cb35-5" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 25 53 50 63</span></span>
-<span id="cb35-6"><a href="programming-fundamentals.html#cb35-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb35-7"><a href="programming-fundamentals.html#cb35-7" aria-hidden="true" tabindex="-1"></a><span class="co"># We can, of course, do this in one line:</span></span>
-<span id="cb35-8"><a href="programming-fundamentals.html#cb35-8" aria-hidden="true" tabindex="-1"></a>age[height <span class="sc">&lt;</span> <span class="fl">1.8</span>]</span>
-<span id="cb35-9"><a href="programming-fundamentals.html#cb35-9" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 25 53 50 63</span></span></code></pre></div>
+<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb37-1"><a href="programming-fundamentals.html#cb37-1" aria-hidden="true" tabindex="-1"></a>res <span class="ot">&lt;-</span> height <span class="sc">&lt;</span> <span class="fl">1.8</span></span>
+<span id="cb37-2"><a href="programming-fundamentals.html#cb37-2" aria-hidden="true" tabindex="-1"></a>res</span>
+<span id="cb37-3"><a href="programming-fundamentals.html#cb37-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  TRUE  TRUE FALSE  TRUE FALSE  TRUE</span></span>
+<span id="cb37-4"><a href="programming-fundamentals.html#cb37-4" aria-hidden="true" tabindex="-1"></a>age[res]</span>
+<span id="cb37-5"><a href="programming-fundamentals.html#cb37-5" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 25 53 50 63</span></span>
+<span id="cb37-6"><a href="programming-fundamentals.html#cb37-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-7"><a href="programming-fundamentals.html#cb37-7" aria-hidden="true" tabindex="-1"></a><span class="co"># We can, of course, do this in one line:</span></span>
+<span id="cb37-8"><a href="programming-fundamentals.html#cb37-8" aria-hidden="true" tabindex="-1"></a>age[height <span class="sc">&lt;</span> <span class="fl">1.8</span>]</span>
+<span id="cb37-9"><a href="programming-fundamentals.html#cb37-9" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 25 53 50 63</span></span></code></pre></div>
 <p>Or extend the expression to get the age for those who are smaller than <code>1.8</code> and older than <code>50</code> years.</p>
-<div class="sourceCode" id="cb36"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb36-1"><a href="programming-fundamentals.html#cb36-1" aria-hidden="true" tabindex="-1"></a>age[age <span class="sc">&gt;</span> <span class="dv">50</span> <span class="sc">&amp;</span> height <span class="sc">&lt;</span> <span class="fl">1.8</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb38"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb38-1"><a href="programming-fundamentals.html#cb38-1" aria-hidden="true" tabindex="-1"></a>age[age <span class="sc">&gt;</span> <span class="dv">50</span> <span class="sc">&amp;</span> height <span class="sc">&lt;</span> <span class="fl">1.8</span>]</span></code></pre></div>
 <pre><code>## [1] 53 63</code></pre>
 <p><strong>Warning</strong>: Avoid using == for floating point arithmetic on double vectors. This can lead to unexpected results due to small imprecisions. An example:</p>
-<div class="sourceCode" id="cb38"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb38-1"><a href="programming-fundamentals.html#cb38-1" aria-hidden="true" tabindex="-1"></a>(<span class="fl">1.5</span> <span class="sc">-</span> <span class="fl">0.5</span>) <span class="sc">==</span> <span class="dv">1</span></span>
-<span id="cb38-2"><a href="programming-fundamentals.html#cb38-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] TRUE</span></span>
-<span id="cb38-3"><a href="programming-fundamentals.html#cb38-3" aria-hidden="true" tabindex="-1"></a>(<span class="fl">1.9</span> <span class="sc">-</span> <span class="fl">0.9</span>) <span class="sc">==</span> <span class="dv">1</span></span>
-<span id="cb38-4"><a href="programming-fundamentals.html#cb38-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] FALSE</span></span></code></pre></div>
+<div class="sourceCode" id="cb40"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb40-1"><a href="programming-fundamentals.html#cb40-1" aria-hidden="true" tabindex="-1"></a>(<span class="fl">1.5</span> <span class="sc">-</span> <span class="fl">0.5</span>) <span class="sc">==</span> <span class="dv">1</span></span>
+<span id="cb40-2"><a href="programming-fundamentals.html#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] TRUE</span></span>
+<span id="cb40-3"><a href="programming-fundamentals.html#cb40-3" aria-hidden="true" tabindex="-1"></a>(<span class="fl">1.9</span> <span class="sc">-</span> <span class="fl">0.9</span>) <span class="sc">==</span> <span class="dv">1</span></span>
+<span id="cb40-4"><a href="programming-fundamentals.html#cb40-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] FALSE</span></span></code></pre></div>
 <p><strong>Alternative</strong>: Better use the function <code>all.equal()</code>. The function checks if numeric values are equal (but not exactly equal) by allowing for a (very small) tolerance. For those interested what the tolerance is, check <code>?all.equal</code>.</p>
-<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb39-1"><a href="programming-fundamentals.html#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">all.equal</span>(<span class="fl">1.9</span> <span class="sc">-</span> <span class="fl">0.9</span>, <span class="dv">1</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb41-1"><a href="programming-fundamentals.html#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu">all.equal</span>(<span class="fl">1.9</span> <span class="sc">-</span> <span class="fl">0.9</span>, <span class="dv">1</span>)</span></code></pre></div>
 <pre><code>## [1] TRUE</code></pre>
 <p>Besides the relational and logical operators shown above, some more exist.</p>
 <ul>
@@ -677,44 +677,44 @@ There are several different types of data you can use in R. We’ll examine a fe
 <p>There is a distinct difference between <code>&amp;</code>/<code>|</code> and the longer form <code>&amp;&amp;</code>/<code>||</code>. While <code>&amp;</code> and <code>|</code> can be used on vectors (element-wise logical comparison), the longer form evaluates left to right examining <em>only the first element of each vector</em>. The evaluation proceeds only until the result is determined. While the long form can be very handy in some situations (e.g., conditional execution) we will mainly use the short form (<code>&amp;</code>/<code>|</code>).</p>
 <p><strong>Index of <code>TRUE</code> elements</strong></p>
 <p>Often one is interested in where elements are stored which match an expression. Therefore we can use the function <code>which()</code>. <code>which()</code> returns the indices of the elements where the expression evaluated to <code>TRUE</code>.</p>
-<div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb41-1"><a href="programming-fundamentals.html#cb41-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">30</span>, <span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">0</span>, <span class="dv">30</span>, <span class="dv">50</span>)</span>
-<span id="cb41-2"><a href="programming-fundamentals.html#cb41-2" aria-hidden="true" tabindex="-1"></a>x <span class="sc">&gt;=</span> <span class="dv">30</span></span>
-<span id="cb41-3"><a href="programming-fundamentals.html#cb41-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  TRUE FALSE FALSE FALSE  TRUE  TRUE</span></span>
-<span id="cb41-4"><a href="programming-fundamentals.html#cb41-4" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span>(x <span class="sc">&gt;=</span> <span class="dv">30</span>)</span>
-<span id="cb41-5"><a href="programming-fundamentals.html#cb41-5" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 1 5 6</span></span></code></pre></div>
+<div class="sourceCode" id="cb43"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb43-1"><a href="programming-fundamentals.html#cb43-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">30</span>, <span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">0</span>, <span class="dv">30</span>, <span class="dv">50</span>)</span>
+<span id="cb43-2"><a href="programming-fundamentals.html#cb43-2" aria-hidden="true" tabindex="-1"></a>x <span class="sc">&gt;=</span> <span class="dv">30</span></span>
+<span id="cb43-3"><a href="programming-fundamentals.html#cb43-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  TRUE FALSE FALSE FALSE  TRUE  TRUE</span></span>
+<span id="cb43-4"><a href="programming-fundamentals.html#cb43-4" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span>(x <span class="sc">&gt;=</span> <span class="dv">30</span>)</span>
+<span id="cb43-5"><a href="programming-fundamentals.html#cb43-5" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 1 5 6</span></span></code></pre></div>
 <p>The expression <code>x &gt;= 30</code> is <code>TRUE</code> for the elements at position or index 1, 5, 6, which is exactly what <code>which()</code> returns.</p>
 <p><strong>Example</strong>: Find the position of the minimum and the maximum of the vector <code>x</code>:</p>
-<div class="sourceCode" id="cb42"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb42-1"><a href="programming-fundamentals.html#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="fu">min</span>(x)                <span class="co"># The minimum</span></span>
-<span id="cb42-2"><a href="programming-fundamentals.html#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 0</span></span>
-<span id="cb42-3"><a href="programming-fundamentals.html#cb42-3" aria-hidden="true" tabindex="-1"></a>x <span class="sc">==</span> <span class="fu">min</span>(x)           <span class="co"># Comparison</span></span>
-<span id="cb42-4"><a href="programming-fundamentals.html#cb42-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] FALSE FALSE FALSE  TRUE FALSE FALSE</span></span>
-<span id="cb42-5"><a href="programming-fundamentals.html#cb42-5" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span>(x <span class="sc">==</span> <span class="fu">min</span>(x))    <span class="co"># Index/position</span></span>
-<span id="cb42-6"><a href="programming-fundamentals.html#cb42-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 4</span></span></code></pre></div>
+<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb44-1"><a href="programming-fundamentals.html#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="fu">min</span>(x)                <span class="co"># The minimum</span></span>
+<span id="cb44-2"><a href="programming-fundamentals.html#cb44-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 0</span></span>
+<span id="cb44-3"><a href="programming-fundamentals.html#cb44-3" aria-hidden="true" tabindex="-1"></a>x <span class="sc">==</span> <span class="fu">min</span>(x)           <span class="co"># Comparison</span></span>
+<span id="cb44-4"><a href="programming-fundamentals.html#cb44-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] FALSE FALSE FALSE  TRUE FALSE FALSE</span></span>
+<span id="cb44-5"><a href="programming-fundamentals.html#cb44-5" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span>(x <span class="sc">==</span> <span class="fu">min</span>(x))    <span class="co"># Index/position</span></span>
+<span id="cb44-6"><a href="programming-fundamentals.html#cb44-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 4</span></span></code></pre></div>
 <p>In addition, there are two functions <code>which.min()</code> and <code>which.max()</code> which are more reliable to find the minimum/maximum of floating point numbers. However, they only return the index of the very first occurrence of the minimum/maximum! Imagine the following vector <code>z</code>. The minimum is <code>0.5</code> which occurs twice, position 2 and 5. Now compare the different result of <code>which(z == min(z))</code> and <code>which.min(z)</code>:</p>
-<div class="sourceCode" id="cb43"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb43-1"><a href="programming-fundamentals.html#cb43-1" aria-hidden="true" tabindex="-1"></a>z <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="fl">0.5</span>, <span class="dv">20</span>, <span class="dv">30</span>, <span class="fl">0.5</span>)</span>
-<span id="cb43-2"><a href="programming-fundamentals.html#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span>(z <span class="sc">==</span> <span class="fu">min</span>(z))     <span class="co"># Position/index of all minima</span></span>
-<span id="cb43-3"><a href="programming-fundamentals.html#cb43-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 2 5</span></span>
-<span id="cb43-4"><a href="programming-fundamentals.html#cb43-4" aria-hidden="true" tabindex="-1"></a><span class="fu">which.min</span>(z)           <span class="co"># Position/index of first occurrence of minimum</span></span>
-<span id="cb43-5"><a href="programming-fundamentals.html#cb43-5" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 2</span></span></code></pre></div>
+<div class="sourceCode" id="cb45"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb45-1"><a href="programming-fundamentals.html#cb45-1" aria-hidden="true" tabindex="-1"></a>z <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="fl">0.5</span>, <span class="dv">20</span>, <span class="dv">30</span>, <span class="fl">0.5</span>)</span>
+<span id="cb45-2"><a href="programming-fundamentals.html#cb45-2" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span>(z <span class="sc">==</span> <span class="fu">min</span>(z))     <span class="co"># Position/index of all minima</span></span>
+<span id="cb45-3"><a href="programming-fundamentals.html#cb45-3" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 2 5</span></span>
+<span id="cb45-4"><a href="programming-fundamentals.html#cb45-4" aria-hidden="true" tabindex="-1"></a><span class="fu">which.min</span>(z)           <span class="co"># Position/index of first occurrence of minimum</span></span>
+<span id="cb45-5"><a href="programming-fundamentals.html#cb45-5" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 2</span></span></code></pre></div>
 <p>The same is valid for <code>which.max()</code>.</p>
 <p><strong>Single and double brackets</strong></p>
 <p>We can use single brackets (<code>[]</code>) or double brackets (<code>[[]]</code>) for subsetting. While we will most often use single brackets, let us see what they do different.</p>
 <p><code>[]</code> keeps the name attribute, while <code>[[]]</code> drops them all. If we have an unnamed vector there is no difference between the two:</p>
-<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb44-1"><a href="programming-fundamentals.html#cb44-1" aria-hidden="true" tabindex="-1"></a>(x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">54</span>, <span class="fl">1.82</span>, <span class="dv">6020</span>))</span>
-<span id="cb44-2"><a href="programming-fundamentals.html#cb44-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]   54.00    1.82 6020.00</span></span>
-<span id="cb44-3"><a href="programming-fundamentals.html#cb44-3" aria-hidden="true" tabindex="-1"></a>x[<span class="dv">3</span>]       <span class="co"># Single brackets</span></span>
-<span id="cb44-4"><a href="programming-fundamentals.html#cb44-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 6020</span></span>
-<span id="cb44-5"><a href="programming-fundamentals.html#cb44-5" aria-hidden="true" tabindex="-1"></a>x[[<span class="dv">3</span>]]     <span class="co"># Double brackets</span></span>
-<span id="cb44-6"><a href="programming-fundamentals.html#cb44-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 6020</span></span></code></pre></div>
+<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb46-1"><a href="programming-fundamentals.html#cb46-1" aria-hidden="true" tabindex="-1"></a>(x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">54</span>, <span class="fl">1.82</span>, <span class="dv">6020</span>))</span>
+<span id="cb46-2"><a href="programming-fundamentals.html#cb46-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]   54.00    1.82 6020.00</span></span>
+<span id="cb46-3"><a href="programming-fundamentals.html#cb46-3" aria-hidden="true" tabindex="-1"></a>x[<span class="dv">3</span>]       <span class="co"># Single brackets</span></span>
+<span id="cb46-4"><a href="programming-fundamentals.html#cb46-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 6020</span></span>
+<span id="cb46-5"><a href="programming-fundamentals.html#cb46-5" aria-hidden="true" tabindex="-1"></a>x[[<span class="dv">3</span>]]     <span class="co"># Double brackets</span></span>
+<span id="cb46-6"><a href="programming-fundamentals.html#cb46-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 6020</span></span></code></pre></div>
 <p>However, if we have a named vector the result of the two commands look different:</p>
-<div class="sourceCode" id="cb45"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb45-1"><a href="programming-fundamentals.html#cb45-1" aria-hidden="true" tabindex="-1"></a>(x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;age&quot;</span> <span class="ot">=</span> <span class="dv">54</span>, <span class="st">&quot;height&quot;</span> <span class="ot">=</span> <span class="fl">1.82</span>, <span class="st">&quot;zipcode&quot;</span> <span class="ot">=</span> <span class="dv">6020</span>))</span>
-<span id="cb45-2"><a href="programming-fundamentals.html#cb45-2" aria-hidden="true" tabindex="-1"></a><span class="do">##     age  height zipcode </span></span>
-<span id="cb45-3"><a href="programming-fundamentals.html#cb45-3" aria-hidden="true" tabindex="-1"></a><span class="do">##   54.00    1.82 6020.00</span></span>
-<span id="cb45-4"><a href="programming-fundamentals.html#cb45-4" aria-hidden="true" tabindex="-1"></a>x[<span class="dv">3</span>]</span>
-<span id="cb45-5"><a href="programming-fundamentals.html#cb45-5" aria-hidden="true" tabindex="-1"></a><span class="do">## zipcode </span></span>
-<span id="cb45-6"><a href="programming-fundamentals.html#cb45-6" aria-hidden="true" tabindex="-1"></a><span class="do">##    6020</span></span>
-<span id="cb45-7"><a href="programming-fundamentals.html#cb45-7" aria-hidden="true" tabindex="-1"></a>x[[<span class="dv">3</span>]]</span>
-<span id="cb45-8"><a href="programming-fundamentals.html#cb45-8" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 6020</span></span></code></pre></div>
+<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb47-1"><a href="programming-fundamentals.html#cb47-1" aria-hidden="true" tabindex="-1"></a>(x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;age&quot;</span> <span class="ot">=</span> <span class="dv">54</span>, <span class="st">&quot;height&quot;</span> <span class="ot">=</span> <span class="fl">1.82</span>, <span class="st">&quot;zipcode&quot;</span> <span class="ot">=</span> <span class="dv">6020</span>))</span>
+<span id="cb47-2"><a href="programming-fundamentals.html#cb47-2" aria-hidden="true" tabindex="-1"></a><span class="do">##     age  height zipcode </span></span>
+<span id="cb47-3"><a href="programming-fundamentals.html#cb47-3" aria-hidden="true" tabindex="-1"></a><span class="do">##   54.00    1.82 6020.00</span></span>
+<span id="cb47-4"><a href="programming-fundamentals.html#cb47-4" aria-hidden="true" tabindex="-1"></a>x[<span class="dv">3</span>]</span>
+<span id="cb47-5"><a href="programming-fundamentals.html#cb47-5" aria-hidden="true" tabindex="-1"></a><span class="do">## zipcode </span></span>
+<span id="cb47-6"><a href="programming-fundamentals.html#cb47-6" aria-hidden="true" tabindex="-1"></a><span class="do">##    6020</span></span>
+<span id="cb47-7"><a href="programming-fundamentals.html#cb47-7" aria-hidden="true" tabindex="-1"></a>x[[<span class="dv">3</span>]]</span>
+<span id="cb47-8"><a href="programming-fundamentals.html#cb47-8" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 6020</span></span></code></pre></div>
 <p>The same is true for subsetting by name or logical vectors.</p>
 </div>
 </div>
@@ -846,25 +846,25 @@ There are several different types of data you can use in R. We’ll examine a fe
 </table>
 <p><strong>The <code>%in%</code> operator</strong></p>
 <p>This funny looking operator is very handy. It’s short for testing if several values appear in an object. For instance:</p>
-<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb46-1"><a href="programming-fundamentals.html#cb46-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">6</span>, <span class="dv">4</span>, <span class="dv">4</span>, <span class="dv">6</span>, <span class="dv">8</span>, <span class="dv">10</span>, <span class="dv">14</span>, <span class="dv">2</span>)</span>
-<span id="cb46-2"><a href="programming-fundamentals.html#cb46-2" aria-hidden="true" tabindex="-1"></a><span class="co"># To grab all the values where x is 2, 4 or 14 we could do</span></span>
-<span id="cb46-3"><a href="programming-fundamentals.html#cb46-3" aria-hidden="true" tabindex="-1"></a>x[x <span class="sc">==</span> <span class="dv">2</span> <span class="sc">|</span> x <span class="sc">==</span> <span class="dv">4</span> <span class="sc">|</span> x <span class="sc">==</span> <span class="dv">14</span>]</span>
-<span id="cb46-4"><a href="programming-fundamentals.html#cb46-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  2  4  4 14  2</span></span>
-<span id="cb46-5"><a href="programming-fundamentals.html#cb46-5" aria-hidden="true" tabindex="-1"></a><span class="co"># or we could use %in% …</span></span>
-<span id="cb46-6"><a href="programming-fundamentals.html#cb46-6" aria-hidden="true" tabindex="-1"></a>x[x <span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">14</span>)]</span>
-<span id="cb46-7"><a href="programming-fundamentals.html#cb46-7" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  2  4  4 14  2</span></span></code></pre></div>
+<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb48-1"><a href="programming-fundamentals.html#cb48-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">6</span>, <span class="dv">4</span>, <span class="dv">4</span>, <span class="dv">6</span>, <span class="dv">8</span>, <span class="dv">10</span>, <span class="dv">14</span>, <span class="dv">2</span>)</span>
+<span id="cb48-2"><a href="programming-fundamentals.html#cb48-2" aria-hidden="true" tabindex="-1"></a><span class="co"># To grab all the values where x is 2, 4 or 14 we could do</span></span>
+<span id="cb48-3"><a href="programming-fundamentals.html#cb48-3" aria-hidden="true" tabindex="-1"></a>x[x <span class="sc">==</span> <span class="dv">2</span> <span class="sc">|</span> x <span class="sc">==</span> <span class="dv">4</span> <span class="sc">|</span> x <span class="sc">==</span> <span class="dv">14</span>]</span>
+<span id="cb48-4"><a href="programming-fundamentals.html#cb48-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  2  4  4 14  2</span></span>
+<span id="cb48-5"><a href="programming-fundamentals.html#cb48-5" aria-hidden="true" tabindex="-1"></a><span class="co"># or we could use %in% …</span></span>
+<span id="cb48-6"><a href="programming-fundamentals.html#cb48-6" aria-hidden="true" tabindex="-1"></a>x[x <span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">14</span>)]</span>
+<span id="cb48-7"><a href="programming-fundamentals.html#cb48-7" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  2  4  4 14  2</span></span></code></pre></div>
 <p><strong>The <code>xor()</code> function</strong></p>
 <p>The <code>xor()</code> function is an exclusive version of the <code>|</code>. Take two vector, <code>x</code> and <code>y</code>:</p>
-<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb47-1"><a href="programming-fundamentals.html#cb47-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>)</span>
-<span id="cb47-2"><a href="programming-fundamentals.html#cb47-2" aria-hidden="true" tabindex="-1"></a>y <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
-<span id="cb47-3"><a href="programming-fundamentals.html#cb47-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb47-4"><a href="programming-fundamentals.html#cb47-4" aria-hidden="true" tabindex="-1"></a><span class="co"># To get all the elements where either x is 1 or y is 2 we would write</span></span>
-<span id="cb47-5"><a href="programming-fundamentals.html#cb47-5" aria-hidden="true" tabindex="-1"></a>x <span class="sc">==</span> <span class="dv">1</span> <span class="sc">|</span> y <span class="sc">==</span> <span class="dv">2</span></span>
-<span id="cb47-6"><a href="programming-fundamentals.html#cb47-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] TRUE TRUE TRUE</span></span>
-<span id="cb47-7"><a href="programming-fundamentals.html#cb47-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb47-8"><a href="programming-fundamentals.html#cb47-8" aria-hidden="true" tabindex="-1"></a><span class="co"># However, this will also return the elements where x = 1 AND y = 2. If we only want elements where only one statement is TRUE, we would use xor()</span></span>
-<span id="cb47-9"><a href="programming-fundamentals.html#cb47-9" aria-hidden="true" tabindex="-1"></a><span class="fu">xor</span>(x <span class="sc">==</span> <span class="dv">1</span> , y <span class="sc">==</span> <span class="dv">2</span>)</span>
-<span id="cb47-10"><a href="programming-fundamentals.html#cb47-10" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  TRUE FALSE  TRUE</span></span></code></pre></div>
+<div class="sourceCode" id="cb49"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb49-1"><a href="programming-fundamentals.html#cb49-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>)</span>
+<span id="cb49-2"><a href="programming-fundamentals.html#cb49-2" aria-hidden="true" tabindex="-1"></a>y <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb49-3"><a href="programming-fundamentals.html#cb49-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-4"><a href="programming-fundamentals.html#cb49-4" aria-hidden="true" tabindex="-1"></a><span class="co"># To get all the elements where either x is 1 or y is 2 we would write</span></span>
+<span id="cb49-5"><a href="programming-fundamentals.html#cb49-5" aria-hidden="true" tabindex="-1"></a>x <span class="sc">==</span> <span class="dv">1</span> <span class="sc">|</span> y <span class="sc">==</span> <span class="dv">2</span></span>
+<span id="cb49-6"><a href="programming-fundamentals.html#cb49-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] TRUE TRUE TRUE</span></span>
+<span id="cb49-7"><a href="programming-fundamentals.html#cb49-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-8"><a href="programming-fundamentals.html#cb49-8" aria-hidden="true" tabindex="-1"></a><span class="co"># However, this will also return the elements where x = 1 AND y = 2. If we only want elements where only one statement is TRUE, we would use xor()</span></span>
+<span id="cb49-9"><a href="programming-fundamentals.html#cb49-9" aria-hidden="true" tabindex="-1"></a><span class="fu">xor</span>(x <span class="sc">==</span> <span class="dv">1</span> , y <span class="sc">==</span> <span class="dv">2</span>)</span>
+<span id="cb49-10"><a href="programming-fundamentals.html#cb49-10" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  TRUE FALSE  TRUE</span></span></code></pre></div>
 </div>
 <div id="missing-values" class="section level4 hasAnchor" number="2.1.4.6">
 <h4><span class="header-section-number">2.1.4.6</span> Missing values<a href="programming-fundamentals.html#missing-values" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -875,26 +875,26 @@ There are several different types of data you can use in R. We’ll examine a fe
 <li><code>NaN</code> is also <code>NA</code> but not vice versa.</li>
 </ul>
 <p>Missing values tend to be infectious: most computations involving a missing value will return another missing value.</p>
-<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb48-1"><a href="programming-fundamentals.html#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="cn">NA</span> <span class="sc">&gt;</span> <span class="dv">5</span></span>
-<span id="cb48-2"><a href="programming-fundamentals.html#cb48-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] NA</span></span>
-<span id="cb48-3"><a href="programming-fundamentals.html#cb48-3" aria-hidden="true" tabindex="-1"></a><span class="dv">10</span> <span class="sc">*</span> <span class="cn">NA</span></span>
-<span id="cb48-4"><a href="programming-fundamentals.html#cb48-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] NA</span></span>
-<span id="cb48-5"><a href="programming-fundamentals.html#cb48-5" aria-hidden="true" tabindex="-1"></a><span class="sc">!</span><span class="cn">NA</span></span>
-<span id="cb48-6"><a href="programming-fundamentals.html#cb48-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] NA</span></span></code></pre></div>
+<div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="programming-fundamentals.html#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="cn">NA</span> <span class="sc">&gt;</span> <span class="dv">5</span></span>
+<span id="cb50-2"><a href="programming-fundamentals.html#cb50-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] NA</span></span>
+<span id="cb50-3"><a href="programming-fundamentals.html#cb50-3" aria-hidden="true" tabindex="-1"></a><span class="dv">10</span> <span class="sc">*</span> <span class="cn">NA</span></span>
+<span id="cb50-4"><a href="programming-fundamentals.html#cb50-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] NA</span></span>
+<span id="cb50-5"><a href="programming-fundamentals.html#cb50-5" aria-hidden="true" tabindex="-1"></a><span class="sc">!</span><span class="cn">NA</span></span>
+<span id="cb50-6"><a href="programming-fundamentals.html#cb50-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] NA</span></span></code></pre></div>
 <p>There are only a few exceptions to this rule. These occur when some identity holds for all possible inputs:</p>
-<div class="sourceCode" id="cb49"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb49-1"><a href="programming-fundamentals.html#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="cn">NA</span> <span class="sc">^</span> <span class="dv">0</span></span>
-<span id="cb49-2"><a href="programming-fundamentals.html#cb49-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 1</span></span>
-<span id="cb49-3"><a href="programming-fundamentals.html#cb49-3" aria-hidden="true" tabindex="-1"></a><span class="cn">NA</span> <span class="sc">|</span> <span class="cn">TRUE</span></span>
-<span id="cb49-4"><a href="programming-fundamentals.html#cb49-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] TRUE</span></span>
-<span id="cb49-5"><a href="programming-fundamentals.html#cb49-5" aria-hidden="true" tabindex="-1"></a><span class="cn">NA</span> <span class="sc">&amp;</span> <span class="cn">FALSE</span></span>
-<span id="cb49-6"><a href="programming-fundamentals.html#cb49-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] FALSE</span></span></code></pre></div>
+<div class="sourceCode" id="cb51"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb51-1"><a href="programming-fundamentals.html#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="cn">NA</span> <span class="sc">^</span> <span class="dv">0</span></span>
+<span id="cb51-2"><a href="programming-fundamentals.html#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 1</span></span>
+<span id="cb51-3"><a href="programming-fundamentals.html#cb51-3" aria-hidden="true" tabindex="-1"></a><span class="cn">NA</span> <span class="sc">|</span> <span class="cn">TRUE</span></span>
+<span id="cb51-4"><a href="programming-fundamentals.html#cb51-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] TRUE</span></span>
+<span id="cb51-5"><a href="programming-fundamentals.html#cb51-5" aria-hidden="true" tabindex="-1"></a><span class="cn">NA</span> <span class="sc">&amp;</span> <span class="cn">FALSE</span></span>
+<span id="cb51-6"><a href="programming-fundamentals.html#cb51-6" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] FALSE</span></span></code></pre></div>
 <p>Propagation of missingness leads to a common mistake when determining which values in a vector are missing:</p>
-<div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="programming-fundamentals.html#cb50-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="dv">5</span>, <span class="cn">NA</span>, <span class="dv">10</span>)</span>
-<span id="cb50-2"><a href="programming-fundamentals.html#cb50-2" aria-hidden="true" tabindex="-1"></a>x <span class="sc">==</span> <span class="cn">NA</span></span>
-<span id="cb50-3"><a href="programming-fundamentals.html#cb50-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] NA NA NA NA</span></span></code></pre></div>
+<div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="programming-fundamentals.html#cb52-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="dv">5</span>, <span class="cn">NA</span>, <span class="dv">10</span>)</span>
+<span id="cb52-2"><a href="programming-fundamentals.html#cb52-2" aria-hidden="true" tabindex="-1"></a>x <span class="sc">==</span> <span class="cn">NA</span></span>
+<span id="cb52-3"><a href="programming-fundamentals.html#cb52-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] NA NA NA NA</span></span></code></pre></div>
 <p>This result is correct (if a little surprising) because there’s no reason to believe that one missing value has the same value as another. Instead, use is.na() to test for the presence of missingness:</p>
-<div class="sourceCode" id="cb51"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb51-1"><a href="programming-fundamentals.html#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="fu">is.na</span>(x)</span>
-<span id="cb51-2"><a href="programming-fundamentals.html#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1]  TRUE FALSE  TRUE FALSE</span></span></code></pre></div>
+<div class="sourceCode" id="cb53"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb53-1"><a href="programming-fundamentals.html#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="fu">is.na</span>(x)</span>
+<span id="cb53-2"><a href="programming-fundamentals.html#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1]  TRUE FALSE  TRUE FALSE</span></span></code></pre></div>
 <blockquote>
 <p><em>Note:</em> Technically there are four missing values, one for each of the atomic types: <em>NA</em> (logical), <em>NA_integer_</em> (integer), <em>NA_real_</em> (double), and <em>NA_character_</em> (character). This distinction is usually unimportant because NA will be automatically coerced to the correct type when needed.</p>
 </blockquote>
@@ -903,13 +903,13 @@ There are several different types of data you can use in R. We’ll examine a fe
 <p><em>Note</em>: Missing values in R still have a class. We can have missing numeric, integer, logical, or character missing values. They all look the same, but have a class attached to it. When defining a new object and storing a single missing value on it (with <code>x &lt;- NA</code>), it will be ‘logical’ by default. We can, however, convert them (if needed).</p>
 </blockquote>
 <p>If R is not able to convert elements, it will return NA (and throw a warning):</p>
-<div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="programming-fundamentals.html#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="co"># let `x` be a character vector</span></span>
-<span id="cb52-2"><a href="programming-fundamentals.html#cb52-2" aria-hidden="true" tabindex="-1"></a>(x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;a&quot;</span>, <span class="st">&quot;b&quot;</span>, <span class="st">&quot;c&quot;</span>, <span class="st">&quot;d&quot;</span>))</span></code></pre></div>
-<div class="sourceCode" id="cb53"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb53-1"><a href="programming-fundamentals.html#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;a&quot; &quot;b&quot; &quot;c&quot; &quot;d&quot;</span></span></code></pre></div>
-<div class="sourceCode" id="cb54"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb54-1"><a href="programming-fundamentals.html#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Coerce to integer</span></span>
-<span id="cb54-2"><a href="programming-fundamentals.html#cb54-2" aria-hidden="true" tabindex="-1"></a><span class="fu">as.integer</span>(x)</span></code></pre></div>
-<div class="sourceCode" id="cb55"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb55-1"><a href="programming-fundamentals.html#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Warning: NAs introduced by coercion</span></span>
-<span id="cb55-2"><a href="programming-fundamentals.html#cb55-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] NA NA NA NA</span></span></code></pre></div>
+<div class="sourceCode" id="cb54"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb54-1"><a href="programming-fundamentals.html#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="co"># let `x` be a character vector</span></span>
+<span id="cb54-2"><a href="programming-fundamentals.html#cb54-2" aria-hidden="true" tabindex="-1"></a>(x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;a&quot;</span>, <span class="st">&quot;b&quot;</span>, <span class="st">&quot;c&quot;</span>, <span class="st">&quot;d&quot;</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb55"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb55-1"><a href="programming-fundamentals.html#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] &quot;a&quot; &quot;b&quot; &quot;c&quot; &quot;d&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb56-1"><a href="programming-fundamentals.html#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Coerce to integer</span></span>
+<span id="cb56-2"><a href="programming-fundamentals.html#cb56-2" aria-hidden="true" tabindex="-1"></a><span class="fu">as.integer</span>(x)</span></code></pre></div>
+<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb57-1"><a href="programming-fundamentals.html#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Warning: NAs introduced by coercion</span></span>
+<span id="cb57-2"><a href="programming-fundamentals.html#cb57-2" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] NA NA NA NA</span></span></code></pre></div>
 <p>The following table contains a summary of what will happen if you convert the element <code>x</code> into one of the four classes “numeric”, “integer”, “logical”, or “character”:</p>
 <table>
 <colgroup>
@@ -1005,15 +1005,15 @@ There are several different types of data you can use in R. We’ll examine a fe
 <div id="appending-data-to-a-vector" class="section level4 hasAnchor" number="2.1.4.7">
 <h4><span class="header-section-number">2.1.4.7</span> Appending Data to a Vector<a href="programming-fundamentals.html#appending-data-to-a-vector" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>If you want to append additional data items to a vector, use the vector constructor (<code>c</code>) to construct a vector with the additional data items:</p>
-<div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb56-1"><a href="programming-fundamentals.html#cb56-1" aria-hidden="true" tabindex="-1"></a>v <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span>
-<span id="cb56-2"><a href="programming-fundamentals.html#cb56-2" aria-hidden="true" tabindex="-1"></a>newItems <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">6</span>, <span class="dv">7</span>, <span class="dv">8</span>)</span>
-<span id="cb56-3"><a href="programming-fundamentals.html#cb56-3" aria-hidden="true" tabindex="-1"></a><span class="fu">c</span>(v, newItems)</span>
-<span id="cb56-4"><a href="programming-fundamentals.html#cb56-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 1 2 3 6 7 8</span></span></code></pre></div>
+<div class="sourceCode" id="cb58"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb58-1"><a href="programming-fundamentals.html#cb58-1" aria-hidden="true" tabindex="-1"></a>v <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span>
+<span id="cb58-2"><a href="programming-fundamentals.html#cb58-2" aria-hidden="true" tabindex="-1"></a>newItems <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">6</span>, <span class="dv">7</span>, <span class="dv">8</span>)</span>
+<span id="cb58-3"><a href="programming-fundamentals.html#cb58-3" aria-hidden="true" tabindex="-1"></a><span class="fu">c</span>(v, newItems)</span>
+<span id="cb58-4"><a href="programming-fundamentals.html#cb58-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 1 2 3 6 7 8</span></span></code></pre></div>
 <p>For a single item, you can also assign the new item to the next vector element. R will automatically extend the vector:</p>
-<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb57-1"><a href="programming-fundamentals.html#cb57-1" aria-hidden="true" tabindex="-1"></a>v <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span>
-<span id="cb57-2"><a href="programming-fundamentals.html#cb57-2" aria-hidden="true" tabindex="-1"></a>v[<span class="fu">length</span>(v) <span class="sc">+</span> <span class="dv">1</span>] <span class="ot">&lt;-</span> <span class="dv">42</span></span>
-<span id="cb57-3"><a href="programming-fundamentals.html#cb57-3" aria-hidden="true" tabindex="-1"></a>v</span>
-<span id="cb57-4"><a href="programming-fundamentals.html#cb57-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  1  2  3 42</span></span></code></pre></div>
+<div class="sourceCode" id="cb59"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb59-1"><a href="programming-fundamentals.html#cb59-1" aria-hidden="true" tabindex="-1"></a>v <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span>
+<span id="cb59-2"><a href="programming-fundamentals.html#cb59-2" aria-hidden="true" tabindex="-1"></a>v[<span class="fu">length</span>(v) <span class="sc">+</span> <span class="dv">1</span>] <span class="ot">&lt;-</span> <span class="dv">42</span></span>
+<span id="cb59-3"><a href="programming-fundamentals.html#cb59-3" aria-hidden="true" tabindex="-1"></a>v</span>
+<span id="cb59-4"><a href="programming-fundamentals.html#cb59-4" aria-hidden="true" tabindex="-1"></a><span class="do">## [1]  1  2  3 42</span></span></code></pre></div>
 <p>If you ask us about appending a data item to a vector, we will likely suggest that maybe you shouldn’t.</p>
 <blockquote>
 <p><strong>Warning</strong>:
@@ -1023,46 +1023,46 @@ R works best when you think about entire vectors, not single data items. Are you
 <p>Despite its name, the <code>append</code> function inserts data into a vector by using the <code>after</code> parameter, which gives the insertion point for the new item or items:</p>
 <p><code>append(vec,newvalues, after =n)</code></p>
 <p>The new items will be inserted at the position given by <code>after</code>. This example inserts 99 into the middle of a sequence:</p>
-<div class="sourceCode" id="cb58"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb58-1"><a href="programming-fundamentals.html#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="fu">append</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="dv">99</span>, <span class="at">after =</span> <span class="dv">5</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb60"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb60-1"><a href="programming-fundamentals.html#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="fu">append</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="dv">99</span>, <span class="at">after =</span> <span class="dv">5</span>)</span></code></pre></div>
 <pre><code>##  [1]  1  2  3  4  5 99  6  7  8  9 10</code></pre>
 <p>The special value of <code>after=0</code> means insert the new items at the <em>head</em> of the vector:</p>
-<div class="sourceCode" id="cb60"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb60-1"><a href="programming-fundamentals.html#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="fu">append</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="dv">99</span>, <span class="at">after =</span> <span class="dv">0</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb62"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb62-1"><a href="programming-fundamentals.html#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="fu">append</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="dv">99</span>, <span class="at">after =</span> <span class="dv">0</span>)</span></code></pre></div>
 <pre><code>##  [1] 99  1  2  3  4  5  6  7  8  9 10</code></pre>
 </div>
 <div id="dimensions" class="section level4 hasAnchor" number="2.1.4.8">
 <h4><span class="header-section-number">2.1.4.8</span> Dimensions<a href="programming-fundamentals.html#dimensions" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Adding a dim attribute to a vector allows it to behave like a 2-dimensional matrix or a multi-dimensional array. Matrices and arrays are primarily mathematical and statistical tools, not programming tools, so they’ll be used infrequently and only covered briefly.</p>
 <p>You can create matrices and arrays with <code>matrix()</code> and <code>array()</code>, or by using the assignment form of <code>dim()</code>:</p>
-<div class="sourceCode" id="cb62"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb62-1"><a href="programming-fundamentals.html#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Two scalar arguments specify row and column sizes</span></span>
-<span id="cb62-2"><a href="programming-fundamentals.html#cb62-2" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, <span class="at">nrow =</span> <span class="dv">2</span>, <span class="at">ncol =</span> <span class="dv">3</span>)</span>
-<span id="cb62-3"><a href="programming-fundamentals.html#cb62-3" aria-hidden="true" tabindex="-1"></a>x</span>
-<span id="cb62-4"><a href="programming-fundamentals.html#cb62-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;      [,1] [,2] [,3]</span></span>
-<span id="cb62-5"><a href="programming-fundamentals.html#cb62-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1,]    1    3    5</span></span>
-<span id="cb62-6"><a href="programming-fundamentals.html#cb62-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [2,]    2    4    6</span></span>
-<span id="cb62-7"><a href="programming-fundamentals.html#cb62-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb62-8"><a href="programming-fundamentals.html#cb62-8" aria-hidden="true" tabindex="-1"></a><span class="co"># One vector argument to describe all dimensions</span></span>
-<span id="cb62-9"><a href="programming-fundamentals.html#cb62-9" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">array</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">12</span>, <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">2</span>))</span>
-<span id="cb62-10"><a href="programming-fundamentals.html#cb62-10" aria-hidden="true" tabindex="-1"></a>y</span>
-<span id="cb62-11"><a href="programming-fundamentals.html#cb62-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; , , 1</span></span>
-<span id="cb62-12"><a href="programming-fundamentals.html#cb62-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb62-13"><a href="programming-fundamentals.html#cb62-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;      [,1] [,2] [,3]</span></span>
-<span id="cb62-14"><a href="programming-fundamentals.html#cb62-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1,]    1    3    5</span></span>
-<span id="cb62-15"><a href="programming-fundamentals.html#cb62-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [2,]    2    4    6</span></span>
-<span id="cb62-16"><a href="programming-fundamentals.html#cb62-16" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb62-17"><a href="programming-fundamentals.html#cb62-17" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; , , 2</span></span>
-<span id="cb62-18"><a href="programming-fundamentals.html#cb62-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb62-19"><a href="programming-fundamentals.html#cb62-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;      [,1] [,2] [,3]</span></span>
-<span id="cb62-20"><a href="programming-fundamentals.html#cb62-20" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1,]    7    9   11</span></span>
-<span id="cb62-21"><a href="programming-fundamentals.html#cb62-21" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [2,]    8   10   12</span></span>
-<span id="cb62-22"><a href="programming-fundamentals.html#cb62-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb62-23"><a href="programming-fundamentals.html#cb62-23" aria-hidden="true" tabindex="-1"></a><span class="co"># You can also modify an object in place by setting dim()</span></span>
-<span id="cb62-24"><a href="programming-fundamentals.html#cb62-24" aria-hidden="true" tabindex="-1"></a>z <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">6</span></span>
-<span id="cb62-25"><a href="programming-fundamentals.html#cb62-25" aria-hidden="true" tabindex="-1"></a><span class="fu">dim</span>(z) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">2</span>)</span>
-<span id="cb62-26"><a href="programming-fundamentals.html#cb62-26" aria-hidden="true" tabindex="-1"></a>z</span>
-<span id="cb62-27"><a href="programming-fundamentals.html#cb62-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;      [,1] [,2]</span></span>
-<span id="cb62-28"><a href="programming-fundamentals.html#cb62-28" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1,]    1    4</span></span>
-<span id="cb62-29"><a href="programming-fundamentals.html#cb62-29" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [2,]    2    5</span></span>
-<span id="cb62-30"><a href="programming-fundamentals.html#cb62-30" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [3,]    3    6</span></span></code></pre></div>
+<div class="sourceCode" id="cb64"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb64-1"><a href="programming-fundamentals.html#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Two scalar arguments specify row and column sizes</span></span>
+<span id="cb64-2"><a href="programming-fundamentals.html#cb64-2" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, <span class="at">nrow =</span> <span class="dv">2</span>, <span class="at">ncol =</span> <span class="dv">3</span>)</span>
+<span id="cb64-3"><a href="programming-fundamentals.html#cb64-3" aria-hidden="true" tabindex="-1"></a>x</span>
+<span id="cb64-4"><a href="programming-fundamentals.html#cb64-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;      [,1] [,2] [,3]</span></span>
+<span id="cb64-5"><a href="programming-fundamentals.html#cb64-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1,]    1    3    5</span></span>
+<span id="cb64-6"><a href="programming-fundamentals.html#cb64-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [2,]    2    4    6</span></span>
+<span id="cb64-7"><a href="programming-fundamentals.html#cb64-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-8"><a href="programming-fundamentals.html#cb64-8" aria-hidden="true" tabindex="-1"></a><span class="co"># One vector argument to describe all dimensions</span></span>
+<span id="cb64-9"><a href="programming-fundamentals.html#cb64-9" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">array</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">12</span>, <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">2</span>))</span>
+<span id="cb64-10"><a href="programming-fundamentals.html#cb64-10" aria-hidden="true" tabindex="-1"></a>y</span>
+<span id="cb64-11"><a href="programming-fundamentals.html#cb64-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; , , 1</span></span>
+<span id="cb64-12"><a href="programming-fundamentals.html#cb64-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb64-13"><a href="programming-fundamentals.html#cb64-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;      [,1] [,2] [,3]</span></span>
+<span id="cb64-14"><a href="programming-fundamentals.html#cb64-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1,]    1    3    5</span></span>
+<span id="cb64-15"><a href="programming-fundamentals.html#cb64-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [2,]    2    4    6</span></span>
+<span id="cb64-16"><a href="programming-fundamentals.html#cb64-16" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb64-17"><a href="programming-fundamentals.html#cb64-17" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; , , 2</span></span>
+<span id="cb64-18"><a href="programming-fundamentals.html#cb64-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb64-19"><a href="programming-fundamentals.html#cb64-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;      [,1] [,2] [,3]</span></span>
+<span id="cb64-20"><a href="programming-fundamentals.html#cb64-20" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1,]    7    9   11</span></span>
+<span id="cb64-21"><a href="programming-fundamentals.html#cb64-21" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [2,]    8   10   12</span></span>
+<span id="cb64-22"><a href="programming-fundamentals.html#cb64-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-23"><a href="programming-fundamentals.html#cb64-23" aria-hidden="true" tabindex="-1"></a><span class="co"># You can also modify an object in place by setting dim()</span></span>
+<span id="cb64-24"><a href="programming-fundamentals.html#cb64-24" aria-hidden="true" tabindex="-1"></a>z <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">6</span></span>
+<span id="cb64-25"><a href="programming-fundamentals.html#cb64-25" aria-hidden="true" tabindex="-1"></a><span class="fu">dim</span>(z) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">2</span>)</span>
+<span id="cb64-26"><a href="programming-fundamentals.html#cb64-26" aria-hidden="true" tabindex="-1"></a>z</span>
+<span id="cb64-27"><a href="programming-fundamentals.html#cb64-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;      [,1] [,2]</span></span>
+<span id="cb64-28"><a href="programming-fundamentals.html#cb64-28" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1,]    1    4</span></span>
+<span id="cb64-29"><a href="programming-fundamentals.html#cb64-29" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [2,]    2    5</span></span>
+<span id="cb64-30"><a href="programming-fundamentals.html#cb64-30" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [3,]    3    6</span></span></code></pre></div>
 <p>Many of the functions for working with vectors have generalisations for matrices and arrays:</p>
 <table>
 <thead>
@@ -1101,14 +1101,14 @@ R works best when you think about entire vectors, not single data items. Are you
 </tbody>
 </table>
 <p>A vector without a dim attribute set is often thought of as 1-dimensional, but actually has NULL dimensions. You also can have matrices with a single row or single column, or arrays with a single dimension. They may print similarly, but will behave differently. The differences aren’t too important, but it’s useful to know they exist in case you get strange output from a function (<code>tapply()</code> is a frequent offender). As always, use <code>str()</code> to reveal the differences.</p>
-<div class="sourceCode" id="cb63"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb63-1"><a href="programming-fundamentals.html#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>)                   <span class="co"># 1d vector</span></span>
-<span id="cb63-2"><a href="programming-fundamentals.html#cb63-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  int [1:3] 1 2 3</span></span>
-<span id="cb63-3"><a href="programming-fundamentals.html#cb63-3" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(<span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="at">ncol =</span> <span class="dv">1</span>)) <span class="co"># column vector</span></span>
-<span id="cb63-4"><a href="programming-fundamentals.html#cb63-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  int [1:3, 1] 1 2 3</span></span>
-<span id="cb63-5"><a href="programming-fundamentals.html#cb63-5" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(<span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="at">nrow =</span> <span class="dv">1</span>)) <span class="co"># row vector</span></span>
-<span id="cb63-6"><a href="programming-fundamentals.html#cb63-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  int [1, 1:3] 1 2 3</span></span>
-<span id="cb63-7"><a href="programming-fundamentals.html#cb63-7" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(<span class="fu">array</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="dv">3</span>))         <span class="co"># &quot;array&quot; vector</span></span>
-<span id="cb63-8"><a href="programming-fundamentals.html#cb63-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  int [1:3(1d)] 1 2 3</span></span></code></pre></div>
+<div class="sourceCode" id="cb65"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb65-1"><a href="programming-fundamentals.html#cb65-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>)                   <span class="co"># 1d vector</span></span>
+<span id="cb65-2"><a href="programming-fundamentals.html#cb65-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  int [1:3] 1 2 3</span></span>
+<span id="cb65-3"><a href="programming-fundamentals.html#cb65-3" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(<span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="at">ncol =</span> <span class="dv">1</span>)) <span class="co"># column vector</span></span>
+<span id="cb65-4"><a href="programming-fundamentals.html#cb65-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  int [1:3, 1] 1 2 3</span></span>
+<span id="cb65-5"><a href="programming-fundamentals.html#cb65-5" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(<span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="at">nrow =</span> <span class="dv">1</span>)) <span class="co"># row vector</span></span>
+<span id="cb65-6"><a href="programming-fundamentals.html#cb65-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  int [1, 1:3] 1 2 3</span></span>
+<span id="cb65-7"><a href="programming-fundamentals.html#cb65-7" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(<span class="fu">array</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="dv">3</span>))         <span class="co"># &quot;array&quot; vector</span></span>
+<span id="cb65-8"><a href="programming-fundamentals.html#cb65-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  int [1:3(1d)] 1 2 3</span></span></code></pre></div>
 </div>
 </div>
 <div id="matrices" class="section level3 hasAnchor" number="2.1.5">
@@ -1117,7 +1117,7 @@ R works best when you think about entire vectors, not single data items. Are you
 <p>In R, a matrix is a collection of elements of the same data type (numeric, character, or logical) arranged into a fixed number of rows and columns. Since you are only working with rows and columns, a matrix is called two-dimensional.</p>
 <p><img src="figures/05_datatypes_matrices.png" /></p>
 <p>You can construct a matrix in R with the <code>matrix()</code> function. Consider the following example:</p>
-<div class="sourceCode" id="cb64"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb64-1"><a href="programming-fundamentals.html#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>, <span class="at">nrow =</span> <span class="dv">3</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb66"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb66-1"><a href="programming-fundamentals.html#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>, <span class="at">nrow =</span> <span class="dv">3</span>)</span></code></pre></div>
 <pre><code>##      [,1] [,2] [,3]
 ## [1,]    1    2    3
 ## [2,]    4    5    6
@@ -1289,6 +1289,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
